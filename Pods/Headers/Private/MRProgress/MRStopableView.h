@@ -1,0 +1,5 @@
+XSym
+0051
+1486a719c79386172f3a0f00d03bb4f0
+../../../MRProgress/src/Components/MRStopableView.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

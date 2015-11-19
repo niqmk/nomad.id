@@ -1,0 +1,5 @@
+XSym
+0049
+545cf4645a2061cf1aa43669d647771f
+../../../MRProgress/src/Components/MRStopButton.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

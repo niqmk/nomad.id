@@ -1,0 +1,6 @@
+framework module RNBlurModalView {
+  umbrella header "RNBlurModalView-umbrella.h"
+
+  export *
+  module * { export * }
+}

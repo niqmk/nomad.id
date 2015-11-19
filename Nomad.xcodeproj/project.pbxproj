@@ -1,0 +1,1509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2718095C1BF89D5D00989C2E /* Member+Comment+View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2718095B1BF89D5D00989C2E /* Member+Comment+View.xib */; };
+		2718095F1BF89D9700989C2E /* Member+Comment+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 2718095E1BF89D9700989C2E /* Member+Comment+View.m */; };
+		276B65401BEB674D00AB053D /* Profile+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 276B653F1BEB674D00AB053D /* Profile+Controller.m */; };
+		276B65431BEB6B9A00AB053D /* Home+Landscape+3+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 276B65421BEB6B9A00AB053D /* Home+Landscape+3+View.m */; };
+		276B65461BEB6DBD00AB053D /* Home+Landscape+3+Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 276B65451BEB6DBD00AB053D /* Home+Landscape+3+Cell.m */; };
+		276B65481BEB701000AB053D /* Home+Landscape+3+View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 276B65471BEB701000AB053D /* Home+Landscape+3+View.xib */; };
+		276B654A1BEB72AD00AB053D /* Home+Landscape+3+Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 276B65491BEB72AD00AB053D /* Home+Landscape+3+Cell.xib */; };
+		27A1871F1BE1C306000EB05D /* CustomMMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A1871E1BE1C306000EB05D /* CustomMMDrawerController.m */; };
+		27A187231BE1EFD2000EB05D /* Video+Player+View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27A187221BE1EFD2000EB05D /* Video+Player+View.xib */; };
+		27A187261BE1F00E000EB05D /* Video+Player+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A187251BE1F00E000EB05D /* Video+Player+View.m */; };
+		27BE32DA1BDE1B8D00562324 /* Purchased+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BE32D91BDE1B8D00562324 /* Purchased+Model.m */; };
+		27D709EB1BE8F984004DB74F /* Paid+Point+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D709EA1BE8F984004DB74F /* Paid+Point+Model.m */; };
+		27D709EE1BE9054B004DB74F /* Point+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D709ED1BE9054B004DB74F /* Point+Controller.m */; };
+		27D709F11BE9068C004DB74F /* Point+Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D709F01BE9068C004DB74F /* Point+Cell.m */; };
+		27D709F31BE913CE004DB74F /* Point+Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27D709F21BE913CE004DB74F /* Point+Cell.xib */; };
+		27D709F51BE9200E004DB74F /* Point+Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27D709F41BE9200E004DB74F /* Point+Controller.xib */; };
+		27D709F81BE9F1AF004DB74F /* Me+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D709F71BE9F1AF004DB74F /* Me+Model.m */; };
+		27D709FB1BEA44CA004DB74F /* Point+Buy+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D709FA1BEA44CA004DB74F /* Point+Buy+View.m */; };
+		27D709FE1BEA454D004DB74F /* Point+Free+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D709FD1BEA454D004DB74F /* Point+Free+View.m */; };
+		27D70A001BEA4A61004DB74F /* Point+Buy+View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27D709FF1BEA4A61004DB74F /* Point+Buy+View.xib */; };
+		27D70A041BEA4BFC004DB74F /* Point+Free+View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27D70A031BEA4BFC004DB74F /* Point+Free+View.xib */; };
+		27D70A071BEA4CCB004DB74F /* Point+Free+Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D70A061BEA4CCB004DB74F /* Point+Free+Cell.m */; };
+		27D70A0A1BEA4D3C004DB74F /* Free+Point+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D70A091BEA4D3C004DB74F /* Free+Point+Model.m */; };
+		27D70A0C1BEA5135004DB74F /* Point+Free+Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27D70A0B1BEA5135004DB74F /* Point+Free+Cell.xib */; };
+		4C00B3D81BC5189C00EAF6C5 /* Movie+Related+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00B3D71BC5189C00EAF6C5 /* Movie+Related+Model.m */; };
+		4C00B3DE1BC51DD200EAF6C5 /* Movie+Genre+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00B3DD1BC51DD200EAF6C5 /* Movie+Genre+Model.m */; };
+		4C00B3E01BC5277B00EAF6C5 /* Review+Movie+Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C00B3DF1BC5277B00EAF6C5 /* Review+Movie+Cell.xib */; };
+		4C00B3E31BC53C8900EAF6C5 /* Review+Movie+Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00B3E21BC53C8900EAF6C5 /* Review+Movie+Cell.m */; };
+		4C00E0A91BD65FA1005219A6 /* Related+Serial+View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C00E0A71BD65FA1005219A6 /* Related+Serial+View.xib */; };
+		4C00E0AA1BD65FA1005219A6 /* Comment+Serial+View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C00E0A81BD65FA1005219A6 /* Comment+Serial+View.xib */; };
+		4C00E0AC1BD66007005219A6 /* Comment+Serial+Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C00E0AB1BD66007005219A6 /* Comment+Serial+Cell.xib */; };
+		4C00E0AF1BD6601A005219A6 /* Comment+Serial+Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00E0AE1BD6601A005219A6 /* Comment+Serial+Cell.m */; };
+		4C00E0B41BD660BB005219A6 /* Related+Serial+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00E0B11BD660BB005219A6 /* Related+Serial+View.m */; };
+		4C00E0B51BD660BB005219A6 /* Comment+Serial+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00E0B31BD660BB005219A6 /* Comment+Serial+View.m */; };
+		4C00E0B81BD66432005219A6 /* Serial+Related+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00E0B71BD66432005219A6 /* Serial+Related+Model.m */; };
+		4C0156BE1B9041BB0069F495 /* Slider+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0156BD1B9041BB0069F495 /* Slider+View.m */; };
+		4C0156C01B9060010069F495 /* Slider+View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C0156BF1B9060010069F495 /* Slider+View.xib */; };
+		4C0CE0791BD6358000B995F3 /* Serial+Episode+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0CE0781BD6358000B995F3 /* Serial+Episode+Model.m */; };
+		4C0D6B951BC22842006FD6AF /* Video+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0D6B941BC22842006FD6AF /* Video+Controller.m */; };
+		4C0D6B981BC23569006FD6AF /* Serial+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0D6B971BC23569006FD6AF /* Serial+Model.m */; };
+		4C0D6B9B1BC24F98006FD6AF /* Price+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0D6B9A1BC24F98006FD6AF /* Price+Model.m */; };
+		4C104B371BD2B09E00904135 /* Video+Player+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C104B361BD2B09E00904135 /* Video+Player+Model.m */; };
+		4C104B391BD3681E00904135 /* Download+List+Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C104B381BD3681E00904135 /* Download+List+Controller.xib */; };
+		4C104B3C1BD3686400904135 /* Download+List+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C104B3B1BD3686400904135 /* Download+List+Controller.m */; };
+		4C104B3E1BD383D000904135 /* Download+List+Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C104B3D1BD383D000904135 /* Download+List+Cell.xib */; };
+		4C104B411BD383E800904135 /* Download+List+Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C104B401BD383E800904135 /* Download+List+Cell.m */; };
+		4C104B441BD3972F00904135 /* Video+Player+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C104B431BD3972F00904135 /* Video+Player+Controller.m */; };
+		4C104B461BD3981400904135 /* Video+Player+Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C104B451BD3981400904135 /* Video+Player+Controller.xib */; };
+		4C220D541BD75A130059C13C /* Serial+Episode+Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C220D531BD75A130059C13C /* Serial+Episode+Cell.xib */; };
+		4C220D571BD75A260059C13C /* Serial+Episode+Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C220D561BD75A260059C13C /* Serial+Episode+Cell.m */; };
+		4C220D731BD77EDE0059C13C /* File+Server+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C220D671BD77EDE0059C13C /* File+Server+Controller.m */; };
+		4C220D751BD77EDE0059C13C /* Server+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C220D6B1BD77EDE0059C13C /* Server+Config.m */; };
+		4C2415561B942FC000B9E877 /* Home+Potrait+View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2415551B942FC000B9E877 /* Home+Potrait+View.xib */; };
+		4C2415591B9431D200B9E877 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C2415571B9431D200B9E877 /* Roboto-Bold.ttf */; };
+		4C24155A1B9431D200B9E877 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C2415581B9431D200B9E877 /* Roboto-Regular.ttf */; };
+		4C24155D1B94484500B9E877 /* Home+Potrait+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C24155C1B94484500B9E877 /* Home+Potrait+View.m */; };
+		4C24155F1B944B2100B9E877 /* Potrait+View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C24155E1B944B2100B9E877 /* Potrait+View.xib */; };
+		4C2415621B944B8200B9E877 /* Potrait+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2415611B944B8200B9E877 /* Potrait+View.m */; };
+		4C2415671B945F9000B9E877 /* Layout.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C2415661B945F9000B9E877 /* Layout.plist */; };
+		4C24156D1B95A78E00B9E877 /* Home+Landscape+Thumb+View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C24156B1B95A78E00B9E877 /* Home+Landscape+Thumb+View.xib */; };
+		4C24156E1B95A78E00B9E877 /* Home+Landscape+View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C24156C1B95A78E00B9E877 /* Home+Landscape+View.xib */; };
+		4C2415731B95A81000B9E877 /* Home+Landscape+Thumb+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2415701B95A81000B9E877 /* Home+Landscape+Thumb+View.m */; };
+		4C2415741B95A81000B9E877 /* Home+Landscape+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2415721B95A81000B9E877 /* Home+Landscape+View.m */; };
+		4C2415761B95AE3200B9E877 /* Home+Landscape+2+View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2415751B95AE3200B9E877 /* Home+Landscape+2+View.xib */; };
+		4C2415791B95AE4100B9E877 /* Home+Landscape+2+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2415781B95AE4100B9E877 /* Home+Landscape+2+View.m */; };
+		4C295EB61BC67B4B00612F0A /* Serial+Detail+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C295EB51BC67B4B00612F0A /* Serial+Detail+Model.m */; };
+		4C295EBB1BC7725800612F0A /* Member+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C295EBA1BC7725800612F0A /* Member+Model.m */; };
+		4C295EBE1BC7AC9400612F0A /* Home+Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C295EBD1BC7AC9400612F0A /* Home+Session.m */; };
+		4C295EC01BC7D38200612F0A /* Web+Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C295EBF1BC7D38200612F0A /* Web+Controller.xib */; };
+		4C295EC31BC7D3A700612F0A /* Web+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C295EC21BC7D3A700612F0A /* Web+Controller.m */; };
+		4C295EC71BC7D80E00612F0A /* Movie+URL+Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C295EC61BC7D80E00612F0A /* Movie+URL+Manager.m */; };
+		4C295ECA1BC7D87200612F0A /* Serial+URL+Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C295EC91BC7D87200612F0A /* Serial+URL+Manager.m */; };
+		4C2B8AF01B40DF6C00CCEBD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B8AEF1B40DF6C00CCEBD1 /* main.m */; };
+		4C2B8AF31B40DF6C00CCEBD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B8AF21B40DF6C00CCEBD1 /* AppDelegate.m */; };
+		4C2B8AFB1B40DF6D00CCEBD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C2B8AFA1B40DF6D00CCEBD1 /* Images.xcassets */; };
+		4C2B8B1C1B40E50500CCEBD1 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B8B1B1B40E50500CCEBD1 /* Config.m */; };
+		4C2B8B241B40EB8D00CCEBD1 /* Global+Variables.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B8B231B40EB8D00CCEBD1 /* Global+Variables.m */; };
+		4C2B8B2D1B40EDA800CCEBD1 /* URL+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B8B2C1B40EDA800CCEBD1 /* URL+Config.m */; };
+		4C2B8B321B40EDD200CCEBD1 /* App+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B8B2F1B40EDD200CCEBD1 /* App+Controller.m */; };
+		4C2B8B331B40EDD200CCEBD1 /* Global+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B8B311B40EDD200CCEBD1 /* Global+Controller.m */; };
+		4C2B8B361B40EDFA00CCEBD1 /* User+Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B8B351B40EDFA00CCEBD1 /* User+Session.m */; };
+		4C2B8B3A1B40EE5E00CCEBD1 /* User+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B8B391B40EE5E00CCEBD1 /* User+Model.m */; };
+		4C2B8B3E1B40EF6900CCEBD1 /* SQL+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B8B3D1B40EF6900CCEBD1 /* SQL+Controller.m */; };
+		4C2B8B461B40F14C00CCEBD1 /* Home+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B8B451B40F14C00CCEBD1 /* Home+Controller.m */; };
+		4C2B8B4B1B40F20000CCEBD1 /* Home+Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2B8B4A1B40F20000CCEBD1 /* Home+Controller.xib */; };
+		4C2B8B4E1B40F2DA00CCEBD1 /* URL+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B8B4D1B40F2DA00CCEBD1 /* URL+Controller.m */; };
+		4C2B8B511B410D1000CCEBD1 /* Land+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B8B501B410D1000CCEBD1 /* Land+Controller.m */; };
+		4C2B8B531B4119B200CCEBD1 /* Land+Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2B8B521B4119B200CCEBD1 /* Land+Controller.xib */; };
+		4C2E1BEA1BC4D6AE00861B0A /* Search+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2E1BE91BC4D6AE00861B0A /* Search+Controller.m */; };
+		4C2E1BEC1BC4D89300861B0A /* Search+Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E1BEB1BC4D89300861B0A /* Search+Controller.xib */; };
+		4C2E1BEF1BC4DA3C00861B0A /* Menu+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2E1BEE1BC4DA3C00861B0A /* Menu+Model.m */; };
+		4C2E1BF11BC4F04A00861B0A /* Search+Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E1BF01BC4F04A00861B0A /* Search+Cell.xib */; };
+		4C2E1BF41BC4F06100861B0A /* Search+Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2E1BF31BC4F06100861B0A /* Search+Cell.m */; };
+		4C2E1BFC1BC4F5B500861B0A /* Search+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2E1BFB1BC4F5B500861B0A /* Search+Model.m */; };
+		4C3A81FC1B8C2B22006576EA /* Menu+Logged+Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3A81FB1B8C2B22006576EA /* Menu+Logged+Controller.xib */; };
+		4C3A82021B8C31B2006576EA /* Nav+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A82011B8C31B2006576EA /* Nav+Controller.m */; };
+		4C3A82041B8C332A006576EA /* Nav+Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3A82031B8C332A006576EA /* Nav+Controller.xib */; };
+		4C3A82061B8C432D006576EA /* Menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C3A82051B8C432D006576EA /* Menu.plist */; };
+		4C3A82081B8C447A006576EA /* Menu+View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3A82071B8C447A006576EA /* Menu+View.xib */; };
+		4C3A820B1B8C44A2006576EA /* Menu+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A820A1B8C44A2006576EA /* Menu+View.m */; };
+		4C3A820D1B8C5C3D006576EA /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3A820C1B8C5C3D006576EA /* Social.framework */; };
+		4C3A820F1B8C5C43006576EA /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3A820E1B8C5C43006576EA /* Accounts.framework */; };
+		4C3A82111B8C5C55006576EA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3A82101B8C5C55006576EA /* AVFoundation.framework */; };
+		4C3A82131B8C5CE8006576EA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3A82121B8C5CE8006576EA /* AudioToolbox.framework */; };
+		4C3A821A1B8ECB6D006576EA /* Menu+Logged+Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3A82191B8ECB6D006576EA /* Menu+Logged+Cell.xib */; };
+		4C3A821E1B8ECB8F006576EA /* Menu+Logged+Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A821D1B8ECB8F006576EA /* Menu+Logged+Cell.m */; };
+		4C3A82201B8F079B006576EA /* Menu+Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3A821F1B8F079B006576EA /* Menu+Cell.xib */; };
+		4C3A82221B8F07A7006576EA /* Menu+Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3A82211B8F07A7006576EA /* Menu+Controller.xib */; };
+		4C3A82251B8F07B5006576EA /* Menu+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A82241B8F07B5006576EA /* Menu+Controller.m */; };
+		4C3A82281B8F07CE006576EA /* Menu+Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A82271B8F07CE006576EA /* Menu+Cell.m */; };
+		4C3A822B1B8F0B6D006576EA /* Menu+Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A822A1B8F0B6D006576EA /* Menu+Session.m */; };
+		4C3A822E1B8F0C40006576EA /* Category+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A822D1B8F0C40006576EA /* Category+Model.m */; };
+		4C3A82311B8F1203006576EA /* Menu+Category+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A82301B8F1203006576EA /* Menu+Category+Model.m */; };
+		4C44D33C1B7B184B004E685D /* Credential+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C44D33B1B7B184B004E685D /* Credential+Controller.m */; };
+		4C44D3401B7B3344004E685D /* Credential+Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C44D33F1B7B3344004E685D /* Credential+Controller.xib */; };
+		4C44D3431B7B43EF004E685D /* Menu+Logged+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C44D3421B7B43EF004E685D /* Menu+Logged+Controller.m */; };
+		4C5E0B9A1B8AF7D2005DAE5B /* Loading+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E0B991B8AF7D2005DAE5B /* Loading+Controller.m */; };
+		4C5E0B9D1B8AFF1B005DAE5B /* Login+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E0B9C1B8AFF1B005DAE5B /* Login+Model.m */; };
+		4C5E0BA01B8AFF88005DAE5B /* Response+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E0B9F1B8AFF88005DAE5B /* Response+Model.m */; };
+		4C5E0BA31B8B0425005DAE5B /* URL+Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E0BA21B8B0425005DAE5B /* URL+Manager.m */; };
+		4C641F5B1BCB6F95009E15A8 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C641F5A1BCB6F95009E15A8 /* libsqlite3.0.tbd */; };
+		4C641F671BCB78D9009E15A8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C641F661BCB78D9009E15A8 /* CoreLocation.framework */; };
+		4C641F691BCB78EA009E15A8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C641F681BCB78EA009E15A8 /* QuartzCore.framework */; };
+		4C641F6B1BCB78F4009E15A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C641F6A1BCB78F4009E15A8 /* CoreGraphics.framework */; };
+		4C641F6D1BCB7904009E15A8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C641F6C1BCB7904009E15A8 /* StoreKit.framework */; };
+		4C641F711BCB7912009E15A8 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C641F6F1BCB7912009E15A8 /* Parse.framework */; };
+		4C6E88C21BCBBCB800DAEA94 /* Member+Review+View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E88C11BCBBCB800DAEA94 /* Member+Review+View.xib */; };
+		4C6E88C51BCCADA700DAEA94 /* Member+Review+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E88C41BCCADA700DAEA94 /* Member+Review+View.m */; };
+		4C6E88C81BCCB89F00DAEA94 /* Home+Menu+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E88C71BCCB89F00DAEA94 /* Home+Menu+Controller.m */; };
+		4C6E88CA1BCCB8D000DAEA94 /* Home+Menu+Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C6E88C91BCCB8D000DAEA94 /* Home+Menu+Controller.xib */; };
+		4C82C8C51BCFCDDB00EAB2AE /* db.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 4C82C8C41BCFCDDB00EAB2AE /* db.sqlite */; };
+		4C82C8C81BCFCE5500EAB2AE /* Query+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C82C8C71BCFCE5500EAB2AE /* Query+Controller.m */; };
+		4C82C8CB1BCFD17F00EAB2AE /* Download+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C82C8CA1BCFD17F00EAB2AE /* Download+Model.m */; };
+		4C85530D1BD63FEC00142C15 /* Detail+Serial+View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C85530C1BD63FEC00142C15 /* Detail+Serial+View.xib */; };
+		4C8553101BD6400300142C15 /* Detail+Serial+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C85530F1BD6400300142C15 /* Detail+Serial+View.m */; };
+		4C885C3F1BBD2CF800D70791 /* Movie+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C885C3E1BBD2CF800D70791 /* Movie+Model.m */; };
+		4C8F3B891BD0AFC6005B12AB /* Secure+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F3B881BD0AFC6005B12AB /* Secure+Controller.m */; };
+		4C8F3B8F1BD0D4AC005B12AB /* Home+Menu+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F3B8E1BD0D4AC005B12AB /* Home+Menu+View.m */; };
+		4C8F3B951BD0DF99005B12AB /* Layout+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F3B921BD0DF99005B12AB /* Layout+Controller.m */; };
+		4C8F3B961BD0DF99005B12AB /* Layout+Menu+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F3B941BD0DF99005B12AB /* Layout+Menu+Controller.m */; };
+		4C8F3B991BD0DFAC005B12AB /* Layout+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F3B981BD0DFAC005B12AB /* Layout+Config.m */; };
+		4C8F3B9C1BD0E13C005B12AB /* Home+Potrait+2+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F3B9B1BD0E13C005B12AB /* Home+Potrait+2+View.m */; };
+		4C8F3B9E1BD0E539005B12AB /* Home+Potrait+2+View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C8F3B9D1BD0E539005B12AB /* Home+Potrait+2+View.xib */; };
+		4C8F3BA01BD0E5B5005B12AB /* Home+Menu+View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C8F3B9F1BD0E5B5005B12AB /* Home+Menu+View.xib */; };
+		4CAAB1EB1BC3EDD200867B91 /* Movie+Cast+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAAB1EA1BC3EDD200867B91 /* Movie+Cast+Model.m */; };
+		4CAAB1EE1BC3EFB500867B91 /* Movie+Director+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAAB1ED1BC3EFB500867B91 /* Movie+Director+Model.m */; };
+		4CAAB1F11BC3F0EB00867B91 /* Review+Movie+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAAB1F01BC3F0EB00867B91 /* Review+Movie+View.m */; };
+		4CAAB1F41BC3F0FD00867B91 /* Related+Movie+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAAB1F31BC3F0FD00867B91 /* Related+Movie+View.m */; };
+		4CAAB1F61BC3F11600867B91 /* Review+Movie+View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CAAB1F51BC3F11600867B91 /* Review+Movie+View.xib */; };
+		4CAAB1F81BC3F12700867B91 /* Related+Movie+View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CAAB1F71BC3F12700867B91 /* Related+Movie+View.xib */; };
+		4CB0D9D11BCB8A010079D449 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB0D9D01BCB8A010079D449 /* Bolts.framework */; };
+		4CB0D9D41BCB8DCD0079D449 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB0D9D21BCB8DCD0079D449 /* FBSDKCoreKit.framework */; };
+		4CB0D9D51BCB8DCD0079D449 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB0D9D31BCB8DCD0079D449 /* FBSDKLoginKit.framework */; };
+		4CB505951BC27098001FBA7F /* Download+Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB505941BC27098001FBA7F /* Download+Manager.m */; };
+		4CB5059B1BC270C8001FBA7F /* Download+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB5059A1BC270C8001FBA7F /* Download+Controller.m */; };
+		4CB5059E1BC27536001FBA7F /* File+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB5059D1BC27536001FBA7F /* File+Controller.m */; };
+		4CB505A01BC27DFE001FBA7F /* Launch-Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CB5059F1BC27DFE001FBA7F /* Launch-Screen.xib */; };
+		4CB505A61BC37ECB001FBA7F /* Youtube+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB505A51BC37ECB001FBA7F /* Youtube+Controller.m */; };
+		4CB611AB1BCCE7B700D877C7 /* Price+View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CB611AA1BCCE7B700D877C7 /* Price+View.xib */; };
+		4CB611AE1BCCE85100D877C7 /* Price+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB611AD1BCCE85100D877C7 /* Price+View.m */; };
+		4CB611B01BCCF75400D877C7 /* Price+Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CB611AF1BCCF75400D877C7 /* Price+Cell.xib */; };
+		4CB611B31BCCF78900D877C7 /* Price+Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB611B21BCCF78900D877C7 /* Price+Cell.m */; };
+		4CB611BB1BCD38B000D877C7 /* Video+Profile+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB611BA1BCD38B000D877C7 /* Video+Profile+View.m */; };
+		4CB611BE1BCD396200D877C7 /* Video+Profile+Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB611BD1BCD396200D877C7 /* Video+Profile+Cell.m */; };
+		4CB611C01BCD3FA100D877C7 /* Video+Profile+View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CB611BF1BCD3FA100D877C7 /* Video+Profile+View.xib */; };
+		4CB611C21BCD401400D877C7 /* Video+Profile+Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CB611C11BCD401400D877C7 /* Video+Profile+Cell.xib */; };
+		4CC091B21BBE75C800CC35BA /* Detail+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC091B11BBE75C800CC35BA /* Detail+Controller.m */; };
+		4CC091B41BBE7D3800CC35BA /* Detail+Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC091B31BBE7D3800CC35BA /* Detail+Controller.xib */; };
+		4CC091B71BBEACC500CC35BA /* Detail+Movie+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC091B61BBEACC500CC35BA /* Detail+Movie+View.m */; };
+		4CC091B91BBEAE0600CC35BA /* Detail+Movie+View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC091B81BBEAE0600CC35BA /* Detail+Movie+View.xib */; };
+		4CC091BD1BBEDA2100CC35BA /* Movie+Detail+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC091BC1BBEDA2100CC35BA /* Movie+Detail+Model.m */; };
+		4CC26FB31B419E8E00E988C4 /* App.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CC26FB21B419E8E00E988C4 /* App.plist */; };
+		4CD9F6AB1B43949C00B9253C /* Alert+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD9F6A81B43949C00B9253C /* Alert+Controller.m */; };
+		4CD9F6AC1B43949C00B9253C /* Date+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD9F6AA1B43949C00B9253C /* Date+Controller.m */; };
+		4CD9F6AF1B439E3100B9253C /* Date+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD9F6AE1B439E3100B9253C /* Date+View.m */; };
+		4CD9F6B11B439E5200B9253C /* Date+View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CD9F6B01B439E5200B9253C /* Date+View.xib */; };
+		4CDE41861BB8FE1200C80F81 /* Facebook+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDE41851BB8FE1200C80F81 /* Facebook+Controller.m */; };
+		4CDE41891BB9029A00C80F81 /* Facebook+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDE41881BB9029A00C80F81 /* Facebook+Model.m */; };
+		4CDE418B1BB935EA00C80F81 /* Forgot+Password+View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CDE418A1BB935EA00C80F81 /* Forgot+Password+View.xib */; };
+		4CDE418E1BB939A900C80F81 /* Forgot+Password+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDE418D1BB939A900C80F81 /* Forgot+Password+View.m */; };
+		4CDE41951BB94D6200C80F81 /* Modal+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDE41941BB94D6200C80F81 /* Modal+Controller.m */; };
+		4CDE41971BBA8EEC00C80F81 /* Home+View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CDE41961BBA8EEC00C80F81 /* Home+View.xib */; };
+		4CDE419A1BBA93D300C80F81 /* Home+View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDE41991BBA93D300C80F81 /* Home+View.m */; };
+		4CDE419D1BBA9B2200C80F81 /* Slider+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDE419C1BBA9B2200C80F81 /* Slider+Model.m */; };
+		7FFD8FE2D7024D9C52D793AF /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19039DB0F82BA4D03503E8A /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2718095B1BF89D5D00989C2E /* Member+Comment+View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Member+Comment+View.xib"; path = "Nomad/Resources/View/Member+Comment+View.xib"; sourceTree = SOURCE_ROOT; };
+		2718095D1BF89D9700989C2E /* Member+Comment+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Member+Comment+View.h"; path = "Nomad/Classes/View/Member+Comment+View.h"; sourceTree = SOURCE_ROOT; };
+		2718095E1BF89D9700989C2E /* Member+Comment+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Member+Comment+View.m"; path = "Nomad/Classes/View/Member+Comment+View.m"; sourceTree = SOURCE_ROOT; };
+		276B653E1BEB674D00AB053D /* Profile+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Profile+Controller.h"; path = "Nomad/Classes/Controller/Profile+Controller.h"; sourceTree = SOURCE_ROOT; };
+		276B653F1BEB674D00AB053D /* Profile+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Profile+Controller.m"; path = "Nomad/Classes/Controller/Profile+Controller.m"; sourceTree = SOURCE_ROOT; };
+		276B65411BEB6B9A00AB053D /* Home+Landscape+3+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Home+Landscape+3+View.h"; path = "Nomad/Classes/View/Home+Landscape+3+View.h"; sourceTree = SOURCE_ROOT; };
+		276B65421BEB6B9A00AB053D /* Home+Landscape+3+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Home+Landscape+3+View.m"; path = "Nomad/Classes/View/Home+Landscape+3+View.m"; sourceTree = SOURCE_ROOT; };
+		276B65441BEB6DBD00AB053D /* Home+Landscape+3+Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Home+Landscape+3+Cell.h"; path = "Nomad/Classes/Cell/Home+Landscape+3+Cell.h"; sourceTree = SOURCE_ROOT; };
+		276B65451BEB6DBD00AB053D /* Home+Landscape+3+Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Home+Landscape+3+Cell.m"; path = "Nomad/Classes/Cell/Home+Landscape+3+Cell.m"; sourceTree = SOURCE_ROOT; };
+		276B65471BEB701000AB053D /* Home+Landscape+3+View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Home+Landscape+3+View.xib"; path = "Nomad/Resources/View/Home+Landscape+3+View.xib"; sourceTree = SOURCE_ROOT; };
+		276B65491BEB72AD00AB053D /* Home+Landscape+3+Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Home+Landscape+3+Cell.xib"; path = "Nomad/Resources/Cell/Home+Landscape+3+Cell.xib"; sourceTree = SOURCE_ROOT; };
+		27A1871D1BE1C306000EB05D /* CustomMMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomMMDrawerController.h; path = Nomad/Classes/General/Controller/CustomMMDrawerController.h; sourceTree = SOURCE_ROOT; };
+		27A1871E1BE1C306000EB05D /* CustomMMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomMMDrawerController.m; path = Nomad/Classes/General/Controller/CustomMMDrawerController.m; sourceTree = SOURCE_ROOT; };
+		27A187221BE1EFD2000EB05D /* Video+Player+View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Video+Player+View.xib"; path = "Nomad/Resources/View/Video+Player+View.xib"; sourceTree = SOURCE_ROOT; };
+		27A187241BE1F00E000EB05D /* Video+Player+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Video+Player+View.h"; path = "Nomad/Classes/View/Video+Player+View.h"; sourceTree = SOURCE_ROOT; };
+		27A187251BE1F00E000EB05D /* Video+Player+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Video+Player+View.m"; path = "Nomad/Classes/View/Video+Player+View.m"; sourceTree = SOURCE_ROOT; };
+		27BE32D81BDE1B8D00562324 /* Purchased+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Purchased+Model.h"; path = "Nomad/Classes/Model/Purchased+Model.h"; sourceTree = SOURCE_ROOT; };
+		27BE32D91BDE1B8D00562324 /* Purchased+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Purchased+Model.m"; path = "Nomad/Classes/Model/Purchased+Model.m"; sourceTree = SOURCE_ROOT; };
+		27D709E91BE8F984004DB74F /* Paid+Point+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Paid+Point+Model.h"; path = "Nomad/Classes/Model/Paid+Point+Model.h"; sourceTree = SOURCE_ROOT; };
+		27D709EA1BE8F984004DB74F /* Paid+Point+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Paid+Point+Model.m"; path = "Nomad/Classes/Model/Paid+Point+Model.m"; sourceTree = SOURCE_ROOT; };
+		27D709EC1BE9054B004DB74F /* Point+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Point+Controller.h"; path = "Nomad/Classes/Controller/Point+Controller.h"; sourceTree = SOURCE_ROOT; };
+		27D709ED1BE9054B004DB74F /* Point+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Point+Controller.m"; path = "Nomad/Classes/Controller/Point+Controller.m"; sourceTree = SOURCE_ROOT; };
+		27D709EF1BE9068C004DB74F /* Point+Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Point+Cell.h"; path = "Nomad/Classes/Cell/Point+Cell.h"; sourceTree = SOURCE_ROOT; };
+		27D709F01BE9068C004DB74F /* Point+Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Point+Cell.m"; path = "Nomad/Classes/Cell/Point+Cell.m"; sourceTree = SOURCE_ROOT; };
+		27D709F21BE913CE004DB74F /* Point+Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Point+Cell.xib"; path = "Nomad/Resources/Cell/Point+Cell.xib"; sourceTree = SOURCE_ROOT; };
+		27D709F41BE9200E004DB74F /* Point+Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Point+Controller.xib"; path = "Nomad/Resources/Controller/Point+Controller.xib"; sourceTree = SOURCE_ROOT; };
+		27D709F61BE9F1AF004DB74F /* Me+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Me+Model.h"; path = "Nomad/Classes/Model/Me+Model.h"; sourceTree = SOURCE_ROOT; };
+		27D709F71BE9F1AF004DB74F /* Me+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Me+Model.m"; path = "Nomad/Classes/Model/Me+Model.m"; sourceTree = SOURCE_ROOT; };
+		27D709F91BEA44CA004DB74F /* Point+Buy+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Point+Buy+View.h"; path = "Nomad/Classes/View/Point+Buy+View.h"; sourceTree = SOURCE_ROOT; };
+		27D709FA1BEA44CA004DB74F /* Point+Buy+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Point+Buy+View.m"; path = "Nomad/Classes/View/Point+Buy+View.m"; sourceTree = SOURCE_ROOT; };
+		27D709FC1BEA454D004DB74F /* Point+Free+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Point+Free+View.h"; path = "Nomad/Classes/View/Point+Free+View.h"; sourceTree = SOURCE_ROOT; };
+		27D709FD1BEA454D004DB74F /* Point+Free+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Point+Free+View.m"; path = "Nomad/Classes/View/Point+Free+View.m"; sourceTree = SOURCE_ROOT; };
+		27D709FF1BEA4A61004DB74F /* Point+Buy+View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Point+Buy+View.xib"; path = "Nomad/Resources/View/Point+Buy+View.xib"; sourceTree = SOURCE_ROOT; };
+		27D70A031BEA4BFC004DB74F /* Point+Free+View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Point+Free+View.xib"; path = "Nomad/Resources/View/Point+Free+View.xib"; sourceTree = SOURCE_ROOT; };
+		27D70A051BEA4CCB004DB74F /* Point+Free+Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Point+Free+Cell.h"; path = "Nomad/Classes/Cell/Point+Free+Cell.h"; sourceTree = SOURCE_ROOT; };
+		27D70A061BEA4CCB004DB74F /* Point+Free+Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Point+Free+Cell.m"; path = "Nomad/Classes/Cell/Point+Free+Cell.m"; sourceTree = SOURCE_ROOT; };
+		27D70A081BEA4D3C004DB74F /* Free+Point+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Free+Point+Model.h"; path = "Nomad/Classes/Model/Free+Point+Model.h"; sourceTree = SOURCE_ROOT; };
+		27D70A091BEA4D3C004DB74F /* Free+Point+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Free+Point+Model.m"; path = "Nomad/Classes/Model/Free+Point+Model.m"; sourceTree = SOURCE_ROOT; };
+		27D70A0B1BEA5135004DB74F /* Point+Free+Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Point+Free+Cell.xib"; path = "Nomad/Resources/Cell/Point+Free+Cell.xib"; sourceTree = SOURCE_ROOT; };
+		4C00B3D61BC5189C00EAF6C5 /* Movie+Related+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Movie+Related+Model.h"; path = "NoMAD/Classes/Model/Movie+Related+Model.h"; sourceTree = SOURCE_ROOT; };
+		4C00B3D71BC5189C00EAF6C5 /* Movie+Related+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Movie+Related+Model.m"; path = "NoMAD/Classes/Model/Movie+Related+Model.m"; sourceTree = SOURCE_ROOT; };
+		4C00B3DC1BC51DD200EAF6C5 /* Movie+Genre+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Movie+Genre+Model.h"; path = "NoMAD/Classes/Model/Movie+Genre+Model.h"; sourceTree = SOURCE_ROOT; };
+		4C00B3DD1BC51DD200EAF6C5 /* Movie+Genre+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Movie+Genre+Model.m"; path = "NoMAD/Classes/Model/Movie+Genre+Model.m"; sourceTree = SOURCE_ROOT; };
+		4C00B3DF1BC5277B00EAF6C5 /* Review+Movie+Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Review+Movie+Cell.xib"; path = "NoMAD/Resources/Cell/Review+Movie+Cell.xib"; sourceTree = SOURCE_ROOT; };
+		4C00B3E11BC53C8900EAF6C5 /* Review+Movie+Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Review+Movie+Cell.h"; path = "NoMAD/Classes/Cell/Review+Movie+Cell.h"; sourceTree = SOURCE_ROOT; };
+		4C00B3E21BC53C8900EAF6C5 /* Review+Movie+Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Review+Movie+Cell.m"; path = "NoMAD/Classes/Cell/Review+Movie+Cell.m"; sourceTree = SOURCE_ROOT; };
+		4C00E0A71BD65FA1005219A6 /* Related+Serial+View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Related+Serial+View.xib"; path = "Nomad/Resources/View/Related+Serial+View.xib"; sourceTree = SOURCE_ROOT; };
+		4C00E0A81BD65FA1005219A6 /* Comment+Serial+View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Comment+Serial+View.xib"; path = "Nomad/Resources/View/Comment+Serial+View.xib"; sourceTree = SOURCE_ROOT; };
+		4C00E0AB1BD66007005219A6 /* Comment+Serial+Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Comment+Serial+Cell.xib"; path = "Nomad/Resources/Cell/Comment+Serial+Cell.xib"; sourceTree = SOURCE_ROOT; };
+		4C00E0AD1BD6601A005219A6 /* Comment+Serial+Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Comment+Serial+Cell.h"; path = "Nomad/Classes/Cell/Comment+Serial+Cell.h"; sourceTree = SOURCE_ROOT; };
+		4C00E0AE1BD6601A005219A6 /* Comment+Serial+Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Comment+Serial+Cell.m"; path = "Nomad/Classes/Cell/Comment+Serial+Cell.m"; sourceTree = SOURCE_ROOT; };
+		4C00E0B01BD660BB005219A6 /* Related+Serial+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Related+Serial+View.h"; path = "Nomad/Classes/View/Related+Serial+View.h"; sourceTree = SOURCE_ROOT; };
+		4C00E0B11BD660BB005219A6 /* Related+Serial+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Related+Serial+View.m"; path = "Nomad/Classes/View/Related+Serial+View.m"; sourceTree = SOURCE_ROOT; };
+		4C00E0B21BD660BB005219A6 /* Comment+Serial+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Comment+Serial+View.h"; path = "Nomad/Classes/View/Comment+Serial+View.h"; sourceTree = SOURCE_ROOT; };
+		4C00E0B31BD660BB005219A6 /* Comment+Serial+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Comment+Serial+View.m"; path = "Nomad/Classes/View/Comment+Serial+View.m"; sourceTree = SOURCE_ROOT; };
+		4C00E0B61BD66432005219A6 /* Serial+Related+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Serial+Related+Model.h"; path = "Nomad/Classes/Model/Serial+Related+Model.h"; sourceTree = SOURCE_ROOT; };
+		4C00E0B71BD66432005219A6 /* Serial+Related+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Serial+Related+Model.m"; path = "Nomad/Classes/Model/Serial+Related+Model.m"; sourceTree = SOURCE_ROOT; };
+		4C0156BC1B9041BB0069F495 /* Slider+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Slider+View.h"; path = "NoMAD/Classes/View/Slider+View.h"; sourceTree = SOURCE_ROOT; };
+		4C0156BD1B9041BB0069F495 /* Slider+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Slider+View.m"; path = "NoMAD/Classes/View/Slider+View.m"; sourceTree = SOURCE_ROOT; };
+		4C0156BF1B9060010069F495 /* Slider+View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Slider+View.xib"; path = "NoMAD/Resources/View/Slider+View.xib"; sourceTree = SOURCE_ROOT; };
+		4C0CE0771BD6358000B995F3 /* Serial+Episode+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Serial+Episode+Model.h"; path = "Nomad/Classes/Model/Serial+Episode+Model.h"; sourceTree = SOURCE_ROOT; };
+		4C0CE0781BD6358000B995F3 /* Serial+Episode+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Serial+Episode+Model.m"; path = "Nomad/Classes/Model/Serial+Episode+Model.m"; sourceTree = SOURCE_ROOT; };
+		4C0D6B931BC22842006FD6AF /* Video+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Video+Controller.h"; path = "NoMAD/Classes/General/Controller/Video+Controller.h"; sourceTree = SOURCE_ROOT; };
+		4C0D6B941BC22842006FD6AF /* Video+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Video+Controller.m"; path = "NoMAD/Classes/General/Controller/Video+Controller.m"; sourceTree = SOURCE_ROOT; };
+		4C0D6B961BC23569006FD6AF /* Serial+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Serial+Model.h"; path = "NoMAD/Classes/Model/Serial+Model.h"; sourceTree = SOURCE_ROOT; };
+		4C0D6B971BC23569006FD6AF /* Serial+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Serial+Model.m"; path = "NoMAD/Classes/Model/Serial+Model.m"; sourceTree = SOURCE_ROOT; };
+		4C0D6B991BC24F98006FD6AF /* Price+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Price+Model.h"; path = "NoMAD/Classes/Model/Price+Model.h"; sourceTree = SOURCE_ROOT; };
+		4C0D6B9A1BC24F98006FD6AF /* Price+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Price+Model.m"; path = "NoMAD/Classes/Model/Price+Model.m"; sourceTree = SOURCE_ROOT; };
+		4C104B351BD2B09E00904135 /* Video+Player+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Video+Player+Model.h"; path = "Nomad/Classes/Model/Video+Player+Model.h"; sourceTree = SOURCE_ROOT; };
+		4C104B361BD2B09E00904135 /* Video+Player+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Video+Player+Model.m"; path = "Nomad/Classes/Model/Video+Player+Model.m"; sourceTree = SOURCE_ROOT; };
+		4C104B381BD3681E00904135 /* Download+List+Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Download+List+Controller.xib"; path = "Nomad/Resources/Controller/Download+List+Controller.xib"; sourceTree = SOURCE_ROOT; };
+		4C104B3A1BD3686400904135 /* Download+List+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Download+List+Controller.h"; path = "Nomad/Classes/Controller/Download+List+Controller.h"; sourceTree = SOURCE_ROOT; };
+		4C104B3B1BD3686400904135 /* Download+List+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Download+List+Controller.m"; path = "Nomad/Classes/Controller/Download+List+Controller.m"; sourceTree = SOURCE_ROOT; };
+		4C104B3D1BD383D000904135 /* Download+List+Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Download+List+Cell.xib"; path = "Nomad/Resources/Cell/Download+List+Cell.xib"; sourceTree = SOURCE_ROOT; };
+		4C104B3F1BD383E800904135 /* Download+List+Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Download+List+Cell.h"; path = "Nomad/Classes/Cell/Download+List+Cell.h"; sourceTree = SOURCE_ROOT; };
+		4C104B401BD383E800904135 /* Download+List+Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Download+List+Cell.m"; path = "Nomad/Classes/Cell/Download+List+Cell.m"; sourceTree = SOURCE_ROOT; };
+		4C104B421BD3972F00904135 /* Video+Player+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Video+Player+Controller.h"; path = "Nomad/Classes/Controller/Video+Player+Controller.h"; sourceTree = SOURCE_ROOT; };
+		4C104B431BD3972F00904135 /* Video+Player+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Video+Player+Controller.m"; path = "Nomad/Classes/Controller/Video+Player+Controller.m"; sourceTree = SOURCE_ROOT; };
+		4C104B451BD3981400904135 /* Video+Player+Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Video+Player+Controller.xib"; path = "Nomad/Resources/Controller/Video+Player+Controller.xib"; sourceTree = SOURCE_ROOT; };
+		4C220D531BD75A130059C13C /* Serial+Episode+Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Serial+Episode+Cell.xib"; path = "Nomad/Resources/Cell/Serial+Episode+Cell.xib"; sourceTree = SOURCE_ROOT; };
+		4C220D551BD75A260059C13C /* Serial+Episode+Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Serial+Episode+Cell.h"; path = "Nomad/Classes/Cell/Serial+Episode+Cell.h"; sourceTree = SOURCE_ROOT; };
+		4C220D561BD75A260059C13C /* Serial+Episode+Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Serial+Episode+Cell.m"; path = "Nomad/Classes/Cell/Serial+Episode+Cell.m"; sourceTree = SOURCE_ROOT; };
+		4C220D661BD77EDE0059C13C /* File+Server+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "File+Server+Controller.h"; path = "Nomad/Classes/General/Server/File+Server+Controller.h"; sourceTree = SOURCE_ROOT; };
+		4C220D671BD77EDE0059C13C /* File+Server+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "File+Server+Controller.m"; path = "Nomad/Classes/General/Server/File+Server+Controller.m"; sourceTree = SOURCE_ROOT; };
+		4C220D6A1BD77EDE0059C13C /* Server+Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Server+Config.h"; path = "Nomad/Classes/General/Server/Server+Config.h"; sourceTree = SOURCE_ROOT; };
+		4C220D6B1BD77EDE0059C13C /* Server+Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Server+Config.m"; path = "Nomad/Classes/General/Server/Server+Config.m"; sourceTree = SOURCE_ROOT; };
+		4C2415551B942FC000B9E877 /* Home+Potrait+View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Home+Potrait+View.xib"; path = "NoMAD/Resources/View/Home+Potrait+View.xib"; sourceTree = SOURCE_ROOT; };
+		4C2415571B9431D200B9E877 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "NoMAD/Resources/Assets/Roboto-Bold.ttf"; sourceTree = SOURCE_ROOT; };
+		4C2415581B9431D200B9E877 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "NoMAD/Resources/Assets/Roboto-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+		4C24155B1B94484500B9E877 /* Home+Potrait+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Home+Potrait+View.h"; path = "NoMAD/Classes/View/Home+Potrait+View.h"; sourceTree = SOURCE_ROOT; };
+		4C24155C1B94484500B9E877 /* Home+Potrait+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Home+Potrait+View.m"; path = "NoMAD/Classes/View/Home+Potrait+View.m"; sourceTree = SOURCE_ROOT; };
+		4C24155E1B944B2100B9E877 /* Potrait+View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Potrait+View.xib"; path = "NoMAD/Resources/View/Potrait+View.xib"; sourceTree = SOURCE_ROOT; };
+		4C2415601B944B8200B9E877 /* Potrait+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Potrait+View.h"; path = "NoMAD/Classes/View/Potrait+View.h"; sourceTree = SOURCE_ROOT; };
+		4C2415611B944B8200B9E877 /* Potrait+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Potrait+View.m"; path = "NoMAD/Classes/View/Potrait+View.m"; sourceTree = SOURCE_ROOT; };
+		4C2415661B945F9000B9E877 /* Layout.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Layout.plist; path = NoMAD/Layout.plist; sourceTree = SOURCE_ROOT; };
+		4C24156B1B95A78E00B9E877 /* Home+Landscape+Thumb+View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Home+Landscape+Thumb+View.xib"; path = "NoMAD/Resources/View/Home+Landscape+Thumb+View.xib"; sourceTree = SOURCE_ROOT; };
+		4C24156C1B95A78E00B9E877 /* Home+Landscape+View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Home+Landscape+View.xib"; path = "NoMAD/Resources/View/Home+Landscape+View.xib"; sourceTree = SOURCE_ROOT; };
+		4C24156F1B95A81000B9E877 /* Home+Landscape+Thumb+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Home+Landscape+Thumb+View.h"; path = "NoMAD/Classes/View/Home+Landscape+Thumb+View.h"; sourceTree = SOURCE_ROOT; };
+		4C2415701B95A81000B9E877 /* Home+Landscape+Thumb+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Home+Landscape+Thumb+View.m"; path = "NoMAD/Classes/View/Home+Landscape+Thumb+View.m"; sourceTree = SOURCE_ROOT; };
+		4C2415711B95A81000B9E877 /* Home+Landscape+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Home+Landscape+View.h"; path = "NoMAD/Classes/View/Home+Landscape+View.h"; sourceTree = SOURCE_ROOT; };
+		4C2415721B95A81000B9E877 /* Home+Landscape+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Home+Landscape+View.m"; path = "NoMAD/Classes/View/Home+Landscape+View.m"; sourceTree = SOURCE_ROOT; };
+		4C2415751B95AE3200B9E877 /* Home+Landscape+2+View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Home+Landscape+2+View.xib"; path = "NoMAD/Resources/View/Home+Landscape+2+View.xib"; sourceTree = SOURCE_ROOT; };
+		4C2415771B95AE4100B9E877 /* Home+Landscape+2+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Home+Landscape+2+View.h"; path = "NoMAD/Classes/View/Home+Landscape+2+View.h"; sourceTree = SOURCE_ROOT; };
+		4C2415781B95AE4100B9E877 /* Home+Landscape+2+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Home+Landscape+2+View.m"; path = "NoMAD/Classes/View/Home+Landscape+2+View.m"; sourceTree = SOURCE_ROOT; };
+		4C295EB41BC67B4B00612F0A /* Serial+Detail+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Serial+Detail+Model.h"; path = "NoMAD/Classes/Model/Serial+Detail+Model.h"; sourceTree = SOURCE_ROOT; };
+		4C295EB51BC67B4B00612F0A /* Serial+Detail+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Serial+Detail+Model.m"; path = "NoMAD/Classes/Model/Serial+Detail+Model.m"; sourceTree = SOURCE_ROOT; };
+		4C295EB91BC7725800612F0A /* Member+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Member+Model.h"; path = "NoMAD/Classes/Model/Member+Model.h"; sourceTree = SOURCE_ROOT; };
+		4C295EBA1BC7725800612F0A /* Member+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Member+Model.m"; path = "NoMAD/Classes/Model/Member+Model.m"; sourceTree = SOURCE_ROOT; };
+		4C295EBC1BC7AC9400612F0A /* Home+Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Home+Session.h"; path = "NoMAD/Classes/General/Session/Home+Session.h"; sourceTree = SOURCE_ROOT; };
+		4C295EBD1BC7AC9400612F0A /* Home+Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Home+Session.m"; path = "NoMAD/Classes/General/Session/Home+Session.m"; sourceTree = SOURCE_ROOT; };
+		4C295EBF1BC7D38200612F0A /* Web+Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Web+Controller.xib"; path = "NoMAD/Resources/Controller/Web+Controller.xib"; sourceTree = SOURCE_ROOT; };
+		4C295EC11BC7D3A700612F0A /* Web+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Web+Controller.h"; path = "NoMAD/Classes/Controller/Web+Controller.h"; sourceTree = SOURCE_ROOT; };
+		4C295EC21BC7D3A700612F0A /* Web+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Web+Controller.m"; path = "NoMAD/Classes/Controller/Web+Controller.m"; sourceTree = SOURCE_ROOT; };
+		4C295EC51BC7D80E00612F0A /* Movie+URL+Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Movie+URL+Manager.h"; path = "NoMAD/Classes/General/URL/Movie+URL+Manager.h"; sourceTree = SOURCE_ROOT; };
+		4C295EC61BC7D80E00612F0A /* Movie+URL+Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Movie+URL+Manager.m"; path = "NoMAD/Classes/General/URL/Movie+URL+Manager.m"; sourceTree = SOURCE_ROOT; };
+		4C295EC81BC7D87200612F0A /* Serial+URL+Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Serial+URL+Manager.h"; path = "NoMAD/Classes/General/URL/Serial+URL+Manager.h"; sourceTree = SOURCE_ROOT; };
+		4C295EC91BC7D87200612F0A /* Serial+URL+Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Serial+URL+Manager.m"; path = "NoMAD/Classes/General/URL/Serial+URL+Manager.m"; sourceTree = SOURCE_ROOT; };
+		4C2B8AEA1B40DF6C00CCEBD1 /* Nomad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nomad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2B8AEE1B40DF6C00CCEBD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C2B8AEF1B40DF6C00CCEBD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C2B8AF11B40DF6C00CCEBD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C2B8AF21B40DF6C00CCEBD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C2B8AFA1B40DF6D00CCEBD1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4C2B8B1A1B40E50500CCEBD1 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Config.h; path = Classes/General/Config.h; sourceTree = "<group>"; };
+		4C2B8B1B1B40E50500CCEBD1 /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Config.m; path = Classes/General/Config.m; sourceTree = "<group>"; };
+		4C2B8B221B40EB8D00CCEBD1 /* Global+Variables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Global+Variables.h"; path = "Classes/General/Global+Variables.h"; sourceTree = "<group>"; };
+		4C2B8B231B40EB8D00CCEBD1 /* Global+Variables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Global+Variables.m"; path = "Classes/General/Global+Variables.m"; sourceTree = "<group>"; };
+		4C2B8B251B40ECD300CCEBD1 /* Nomad-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Nomad-Prefix.pch"; sourceTree = "<group>"; };
+		4C2B8B2B1B40EDA800CCEBD1 /* URL+Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "URL+Config.h"; path = "Classes/General/URL/URL+Config.h"; sourceTree = "<group>"; };
+		4C2B8B2C1B40EDA800CCEBD1 /* URL+Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "URL+Config.m"; path = "Classes/General/URL/URL+Config.m"; sourceTree = "<group>"; };
+		4C2B8B2E1B40EDD200CCEBD1 /* App+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "App+Controller.h"; path = "Classes/General/Controller/App+Controller.h"; sourceTree = "<group>"; };
+		4C2B8B2F1B40EDD200CCEBD1 /* App+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "App+Controller.m"; path = "Classes/General/Controller/App+Controller.m"; sourceTree = "<group>"; };
+		4C2B8B301B40EDD200CCEBD1 /* Global+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Global+Controller.h"; path = "Classes/General/Controller/Global+Controller.h"; sourceTree = "<group>"; };
+		4C2B8B311B40EDD200CCEBD1 /* Global+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Global+Controller.m"; path = "Classes/General/Controller/Global+Controller.m"; sourceTree = "<group>"; };
+		4C2B8B341B40EDFA00CCEBD1 /* User+Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "User+Session.h"; path = "Classes/General/Session/User+Session.h"; sourceTree = "<group>"; };
+		4C2B8B351B40EDFA00CCEBD1 /* User+Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "User+Session.m"; path = "Classes/General/Session/User+Session.m"; sourceTree = "<group>"; };
+		4C2B8B381B40EE5E00CCEBD1 /* User+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "User+Model.h"; path = "Classes/Model/User+Model.h"; sourceTree = "<group>"; };
+		4C2B8B391B40EE5E00CCEBD1 /* User+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "User+Model.m"; path = "Classes/Model/User+Model.m"; sourceTree = "<group>"; };
+		4C2B8B3C1B40EF6900CCEBD1 /* SQL+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SQL+Controller.h"; path = "Classes/General/Controller/SQL+Controller.h"; sourceTree = "<group>"; };
+		4C2B8B3D1B40EF6900CCEBD1 /* SQL+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SQL+Controller.m"; path = "Classes/General/Controller/SQL+Controller.m"; sourceTree = "<group>"; };
+		4C2B8B441B40F14C00CCEBD1 /* Home+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Home+Controller.h"; path = "Classes/Controller/Home+Controller.h"; sourceTree = "<group>"; };
+		4C2B8B451B40F14C00CCEBD1 /* Home+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Home+Controller.m"; path = "Classes/Controller/Home+Controller.m"; sourceTree = "<group>"; };
+		4C2B8B4A1B40F20000CCEBD1 /* Home+Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Home+Controller.xib"; path = "Resources/Controller/Home+Controller.xib"; sourceTree = "<group>"; };
+		4C2B8B4C1B40F2DA00CCEBD1 /* URL+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "URL+Controller.h"; path = "Classes/General/URL/URL+Controller.h"; sourceTree = "<group>"; };
+		4C2B8B4D1B40F2DA00CCEBD1 /* URL+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "URL+Controller.m"; path = "Classes/General/URL/URL+Controller.m"; sourceTree = "<group>"; };
+		4C2B8B4F1B410D1000CCEBD1 /* Land+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Land+Controller.h"; path = "Classes/Controller/Land+Controller.h"; sourceTree = "<group>"; };
+		4C2B8B501B410D1000CCEBD1 /* Land+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Land+Controller.m"; path = "Classes/Controller/Land+Controller.m"; sourceTree = "<group>"; };
+		4C2B8B521B4119B200CCEBD1 /* Land+Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Land+Controller.xib"; path = "../../../../NoMAD/v3/iOS/NoMAD/Resources/Controller/Land+Controller.xib"; sourceTree = "<group>"; };
+		4C2E1BE81BC4D6AE00861B0A /* Search+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Search+Controller.h"; path = "NoMAD/Classes/Controller/Search+Controller.h"; sourceTree = SOURCE_ROOT; };
+		4C2E1BE91BC4D6AE00861B0A /* Search+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Search+Controller.m"; path = "NoMAD/Classes/Controller/Search+Controller.m"; sourceTree = SOURCE_ROOT; };
+		4C2E1BEB1BC4D89300861B0A /* Search+Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Search+Controller.xib"; path = "NoMAD/Resources/Controller/Search+Controller.xib"; sourceTree = SOURCE_ROOT; };
+		4C2E1BED1BC4DA3C00861B0A /* Menu+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Menu+Model.h"; path = "NoMAD/Classes/Model/Menu+Model.h"; sourceTree = SOURCE_ROOT; };
+		4C2E1BEE1BC4DA3C00861B0A /* Menu+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Menu+Model.m"; path = "NoMAD/Classes/Model/Menu+Model.m"; sourceTree = SOURCE_ROOT; };
+		4C2E1BF01BC4F04A00861B0A /* Search+Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Search+Cell.xib"; path = "NoMAD/Resources/Cell/Search+Cell.xib"; sourceTree = SOURCE_ROOT; };
+		4C2E1BF21BC4F06100861B0A /* Search+Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Search+Cell.h"; path = "NoMAD/Classes/Cell/Search+Cell.h"; sourceTree = SOURCE_ROOT; };
+		4C2E1BF31BC4F06100861B0A /* Search+Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Search+Cell.m"; path = "NoMAD/Classes/Cell/Search+Cell.m"; sourceTree = SOURCE_ROOT; };
+		4C2E1BFA1BC4F5B500861B0A /* Search+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Search+Model.h"; path = "NoMAD/Classes/Model/Search+Model.h"; sourceTree = SOURCE_ROOT; };
+		4C2E1BFB1BC4F5B500861B0A /* Search+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Search+Model.m"; path = "NoMAD/Classes/Model/Search+Model.m"; sourceTree = SOURCE_ROOT; };
+		4C3A81FB1B8C2B22006576EA /* Menu+Logged+Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Menu+Logged+Controller.xib"; path = "NoMAD/Resources/Controller/Menu+Logged+Controller.xib"; sourceTree = SOURCE_ROOT; };
+		4C3A82001B8C31B2006576EA /* Nav+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Nav+Controller.h"; path = "NoMAD/Classes/Controller/Nav+Controller.h"; sourceTree = SOURCE_ROOT; };
+		4C3A82011B8C31B2006576EA /* Nav+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Nav+Controller.m"; path = "NoMAD/Classes/Controller/Nav+Controller.m"; sourceTree = SOURCE_ROOT; };
+		4C3A82031B8C332A006576EA /* Nav+Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Nav+Controller.xib"; path = "NoMAD/Resources/Controller/Nav+Controller.xib"; sourceTree = SOURCE_ROOT; };
+		4C3A82051B8C432D006576EA /* Menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Menu.plist; path = NoMAD/Menu.plist; sourceTree = SOURCE_ROOT; };
+		4C3A82071B8C447A006576EA /* Menu+View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Menu+View.xib"; path = "NoMAD/Resources/View/Menu+View.xib"; sourceTree = SOURCE_ROOT; };
+		4C3A82091B8C44A2006576EA /* Menu+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Menu+View.h"; path = "NoMAD/Classes/View/Menu+View.h"; sourceTree = SOURCE_ROOT; };
+		4C3A820A1B8C44A2006576EA /* Menu+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Menu+View.m"; path = "NoMAD/Classes/View/Menu+View.m"; sourceTree = SOURCE_ROOT; };
+		4C3A820C1B8C5C3D006576EA /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		4C3A820E1B8C5C43006576EA /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		4C3A82101B8C5C55006576EA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4C3A82121B8C5CE8006576EA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4C3A82191B8ECB6D006576EA /* Menu+Logged+Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Menu+Logged+Cell.xib"; path = "NoMAD/Resources/Cell/Menu+Logged+Cell.xib"; sourceTree = SOURCE_ROOT; };
+		4C3A821C1B8ECB8F006576EA /* Menu+Logged+Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Menu+Logged+Cell.h"; path = "NoMAD/Classes/Cell/Menu+Logged+Cell.h"; sourceTree = SOURCE_ROOT; };
+		4C3A821D1B8ECB8F006576EA /* Menu+Logged+Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Menu+Logged+Cell.m"; path = "NoMAD/Classes/Cell/Menu+Logged+Cell.m"; sourceTree = SOURCE_ROOT; };
+		4C3A821F1B8F079B006576EA /* Menu+Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Menu+Cell.xib"; path = "NoMAD/Resources/Cell/Menu+Cell.xib"; sourceTree = SOURCE_ROOT; };
+		4C3A82211B8F07A7006576EA /* Menu+Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Menu+Controller.xib"; path = "NoMAD/Resources/Controller/Menu+Controller.xib"; sourceTree = SOURCE_ROOT; };
+		4C3A82231B8F07B5006576EA /* Menu+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Menu+Controller.h"; path = "NoMAD/Classes/Controller/Menu+Controller.h"; sourceTree = SOURCE_ROOT; };
+		4C3A82241B8F07B5006576EA /* Menu+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Menu+Controller.m"; path = "NoMAD/Classes/Controller/Menu+Controller.m"; sourceTree = SOURCE_ROOT; };
+		4C3A82261B8F07CE006576EA /* Menu+Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Menu+Cell.h"; path = "NoMAD/Classes/Cell/Menu+Cell.h"; sourceTree = SOURCE_ROOT; };
+		4C3A82271B8F07CE006576EA /* Menu+Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Menu+Cell.m"; path = "NoMAD/Classes/Cell/Menu+Cell.m"; sourceTree = SOURCE_ROOT; };
+		4C3A82291B8F0B6D006576EA /* Menu+Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Menu+Session.h"; path = "NoMAD/Classes/General/Session/Menu+Session.h"; sourceTree = SOURCE_ROOT; };
+		4C3A822A1B8F0B6D006576EA /* Menu+Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Menu+Session.m"; path = "NoMAD/Classes/General/Session/Menu+Session.m"; sourceTree = SOURCE_ROOT; };
+		4C3A822C1B8F0C40006576EA /* Category+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Category+Model.h"; path = "NoMAD/Classes/Model/Category+Model.h"; sourceTree = SOURCE_ROOT; };
+		4C3A822D1B8F0C40006576EA /* Category+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Category+Model.m"; path = "NoMAD/Classes/Model/Category+Model.m"; sourceTree = SOURCE_ROOT; };
+		4C3A822F1B8F1203006576EA /* Menu+Category+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Menu+Category+Model.h"; path = "NoMAD/Classes/Model/Menu+Category+Model.h"; sourceTree = SOURCE_ROOT; };
+		4C3A82301B8F1203006576EA /* Menu+Category+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Menu+Category+Model.m"; path = "NoMAD/Classes/Model/Menu+Category+Model.m"; sourceTree = SOURCE_ROOT; };
+		4C44D33A1B7B184B004E685D /* Credential+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Credential+Controller.h"; path = "NoMAD/Classes/Controller/Credential+Controller.h"; sourceTree = SOURCE_ROOT; };
+		4C44D33B1B7B184B004E685D /* Credential+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Credential+Controller.m"; path = "NoMAD/Classes/Controller/Credential+Controller.m"; sourceTree = SOURCE_ROOT; };
+		4C44D33F1B7B3344004E685D /* Credential+Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Credential+Controller.xib"; path = "NoMAD/Resources/Controller/Credential+Controller.xib"; sourceTree = SOURCE_ROOT; };
+		4C44D3411B7B43EF004E685D /* Menu+Logged+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Menu+Logged+Controller.h"; path = "NoMAD/Classes/Controller/Menu+Logged+Controller.h"; sourceTree = SOURCE_ROOT; };
+		4C44D3421B7B43EF004E685D /* Menu+Logged+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Menu+Logged+Controller.m"; path = "NoMAD/Classes/Controller/Menu+Logged+Controller.m"; sourceTree = SOURCE_ROOT; };
+		4C5E0B981B8AF7D2005DAE5B /* Loading+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Loading+Controller.h"; path = "NoMAD/Classes/General/Controller/Loading+Controller.h"; sourceTree = SOURCE_ROOT; };
+		4C5E0B991B8AF7D2005DAE5B /* Loading+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Loading+Controller.m"; path = "NoMAD/Classes/General/Controller/Loading+Controller.m"; sourceTree = SOURCE_ROOT; };
+		4C5E0B9B1B8AFF1B005DAE5B /* Login+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Login+Model.h"; path = "NoMAD/Classes/Model/Login+Model.h"; sourceTree = SOURCE_ROOT; };
+		4C5E0B9C1B8AFF1B005DAE5B /* Login+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Login+Model.m"; path = "NoMAD/Classes/Model/Login+Model.m"; sourceTree = SOURCE_ROOT; };
+		4C5E0B9E1B8AFF88005DAE5B /* Response+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Response+Model.h"; path = "NoMAD/Classes/Model/Response+Model.h"; sourceTree = SOURCE_ROOT; };
+		4C5E0B9F1B8AFF88005DAE5B /* Response+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Response+Model.m"; path = "NoMAD/Classes/Model/Response+Model.m"; sourceTree = SOURCE_ROOT; };
+		4C5E0BA11B8B0425005DAE5B /* URL+Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "URL+Manager.h"; path = "NoMAD/Classes/General/URL/URL+Manager.h"; sourceTree = SOURCE_ROOT; };
+		4C5E0BA21B8B0425005DAE5B /* URL+Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "URL+Manager.m"; path = "NoMAD/Classes/General/URL/URL+Manager.m"; sourceTree = SOURCE_ROOT; };
+		4C641F5A1BCB6F95009E15A8 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		4C641F661BCB78D9009E15A8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4C641F681BCB78EA009E15A8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4C641F6A1BCB78F4009E15A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C641F6C1BCB7904009E15A8 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		4C641F6F1BCB7912009E15A8 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		4C6E88C11BCBBCB800DAEA94 /* Member+Review+View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Member+Review+View.xib"; path = "Nomad/Resources/View/Member+Review+View.xib"; sourceTree = SOURCE_ROOT; };
+		4C6E88C31BCCADA700DAEA94 /* Member+Review+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Member+Review+View.h"; path = "Nomad/Classes/View/Member+Review+View.h"; sourceTree = SOURCE_ROOT; };
+		4C6E88C41BCCADA700DAEA94 /* Member+Review+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Member+Review+View.m"; path = "Nomad/Classes/View/Member+Review+View.m"; sourceTree = SOURCE_ROOT; };
+		4C6E88C61BCCB89F00DAEA94 /* Home+Menu+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Home+Menu+Controller.h"; path = "Nomad/Classes/Controller/Home+Menu+Controller.h"; sourceTree = SOURCE_ROOT; };
+		4C6E88C71BCCB89F00DAEA94 /* Home+Menu+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Home+Menu+Controller.m"; path = "Nomad/Classes/Controller/Home+Menu+Controller.m"; sourceTree = SOURCE_ROOT; };
+		4C6E88C91BCCB8D000DAEA94 /* Home+Menu+Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Home+Menu+Controller.xib"; path = "Nomad/Resources/Controller/Home+Menu+Controller.xib"; sourceTree = SOURCE_ROOT; };
+		4C82C8C41BCFCDDB00EAB2AE /* db.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = db.sqlite; path = Nomad/db.sqlite; sourceTree = SOURCE_ROOT; };
+		4C82C8C61BCFCE5500EAB2AE /* Query+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Query+Controller.h"; path = "Nomad/Classes/General/Controller/Query+Controller.h"; sourceTree = SOURCE_ROOT; };
+		4C82C8C71BCFCE5500EAB2AE /* Query+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Query+Controller.m"; path = "Nomad/Classes/General/Controller/Query+Controller.m"; sourceTree = SOURCE_ROOT; };
+		4C82C8C91BCFD17F00EAB2AE /* Download+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Download+Model.h"; path = "Nomad/Classes/Model/Download+Model.h"; sourceTree = SOURCE_ROOT; };
+		4C82C8CA1BCFD17F00EAB2AE /* Download+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Download+Model.m"; path = "Nomad/Classes/Model/Download+Model.m"; sourceTree = SOURCE_ROOT; };
+		4C85530C1BD63FEC00142C15 /* Detail+Serial+View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Detail+Serial+View.xib"; path = "Nomad/Resources/View/Detail+Serial+View.xib"; sourceTree = SOURCE_ROOT; };
+		4C85530E1BD6400300142C15 /* Detail+Serial+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Detail+Serial+View.h"; path = "Nomad/Classes/View/Detail+Serial+View.h"; sourceTree = SOURCE_ROOT; };
+		4C85530F1BD6400300142C15 /* Detail+Serial+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Detail+Serial+View.m"; path = "Nomad/Classes/View/Detail+Serial+View.m"; sourceTree = SOURCE_ROOT; };
+		4C885C3D1BBD2CF800D70791 /* Movie+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Movie+Model.h"; path = "NoMAD/Classes/Model/Movie+Model.h"; sourceTree = SOURCE_ROOT; };
+		4C885C3E1BBD2CF800D70791 /* Movie+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Movie+Model.m"; path = "NoMAD/Classes/Model/Movie+Model.m"; sourceTree = SOURCE_ROOT; };
+		4C8F3B871BD0AFC6005B12AB /* Secure+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Secure+Controller.h"; path = "Nomad/Classes/General/Controller/Secure+Controller.h"; sourceTree = SOURCE_ROOT; };
+		4C8F3B881BD0AFC6005B12AB /* Secure+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Secure+Controller.m"; path = "Nomad/Classes/General/Controller/Secure+Controller.m"; sourceTree = SOURCE_ROOT; };
+		4C8F3B8D1BD0D4AC005B12AB /* Home+Menu+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Home+Menu+View.h"; path = "Nomad/Classes/View/Home+Menu+View.h"; sourceTree = SOURCE_ROOT; };
+		4C8F3B8E1BD0D4AC005B12AB /* Home+Menu+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Home+Menu+View.m"; path = "Nomad/Classes/View/Home+Menu+View.m"; sourceTree = SOURCE_ROOT; };
+		4C8F3B911BD0DF99005B12AB /* Layout+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Layout+Controller.h"; path = "Nomad/Classes/General/Layout/Layout+Controller.h"; sourceTree = SOURCE_ROOT; };
+		4C8F3B921BD0DF99005B12AB /* Layout+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Layout+Controller.m"; path = "Nomad/Classes/General/Layout/Layout+Controller.m"; sourceTree = SOURCE_ROOT; };
+		4C8F3B931BD0DF99005B12AB /* Layout+Menu+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Layout+Menu+Controller.h"; path = "Nomad/Classes/General/Layout/Layout+Menu+Controller.h"; sourceTree = SOURCE_ROOT; };
+		4C8F3B941BD0DF99005B12AB /* Layout+Menu+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Layout+Menu+Controller.m"; path = "Nomad/Classes/General/Layout/Layout+Menu+Controller.m"; sourceTree = SOURCE_ROOT; };
+		4C8F3B971BD0DFAC005B12AB /* Layout+Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Layout+Config.h"; path = "Nomad/Classes/General/Layout/Layout+Config.h"; sourceTree = SOURCE_ROOT; };
+		4C8F3B981BD0DFAC005B12AB /* Layout+Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Layout+Config.m"; path = "Nomad/Classes/General/Layout/Layout+Config.m"; sourceTree = SOURCE_ROOT; };
+		4C8F3B9A1BD0E13C005B12AB /* Home+Potrait+2+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Home+Potrait+2+View.h"; path = "Nomad/Classes/View/Home+Potrait+2+View.h"; sourceTree = SOURCE_ROOT; };
+		4C8F3B9B1BD0E13C005B12AB /* Home+Potrait+2+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Home+Potrait+2+View.m"; path = "Nomad/Classes/View/Home+Potrait+2+View.m"; sourceTree = SOURCE_ROOT; };
+		4C8F3B9D1BD0E539005B12AB /* Home+Potrait+2+View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Home+Potrait+2+View.xib"; path = "Nomad/Resources/View/Home+Potrait+2+View.xib"; sourceTree = SOURCE_ROOT; };
+		4C8F3B9F1BD0E5B5005B12AB /* Home+Menu+View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Home+Menu+View.xib"; path = "Nomad/Resources/View/Home+Menu+View.xib"; sourceTree = SOURCE_ROOT; };
+		4CAAB1E91BC3EDD200867B91 /* Movie+Cast+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Movie+Cast+Model.h"; path = "NoMAD/Classes/Model/Movie+Cast+Model.h"; sourceTree = SOURCE_ROOT; };
+		4CAAB1EA1BC3EDD200867B91 /* Movie+Cast+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Movie+Cast+Model.m"; path = "NoMAD/Classes/Model/Movie+Cast+Model.m"; sourceTree = SOURCE_ROOT; };
+		4CAAB1EC1BC3EFB500867B91 /* Movie+Director+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Movie+Director+Model.h"; path = "NoMAD/Classes/Model/Movie+Director+Model.h"; sourceTree = SOURCE_ROOT; };
+		4CAAB1ED1BC3EFB500867B91 /* Movie+Director+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Movie+Director+Model.m"; path = "NoMAD/Classes/Model/Movie+Director+Model.m"; sourceTree = SOURCE_ROOT; };
+		4CAAB1EF1BC3F0EB00867B91 /* Review+Movie+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Review+Movie+View.h"; path = "NoMAD/Classes/View/Review+Movie+View.h"; sourceTree = SOURCE_ROOT; };
+		4CAAB1F01BC3F0EB00867B91 /* Review+Movie+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Review+Movie+View.m"; path = "NoMAD/Classes/View/Review+Movie+View.m"; sourceTree = SOURCE_ROOT; };
+		4CAAB1F21BC3F0FD00867B91 /* Related+Movie+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Related+Movie+View.h"; path = "NoMAD/Classes/View/Related+Movie+View.h"; sourceTree = SOURCE_ROOT; };
+		4CAAB1F31BC3F0FD00867B91 /* Related+Movie+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Related+Movie+View.m"; path = "NoMAD/Classes/View/Related+Movie+View.m"; sourceTree = SOURCE_ROOT; };
+		4CAAB1F51BC3F11600867B91 /* Review+Movie+View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Review+Movie+View.xib"; path = "NoMAD/Resources/View/Review+Movie+View.xib"; sourceTree = SOURCE_ROOT; };
+		4CAAB1F71BC3F12700867B91 /* Related+Movie+View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Related+Movie+View.xib"; path = "NoMAD/Resources/View/Related+Movie+View.xib"; sourceTree = SOURCE_ROOT; };
+		4CB0D9D01BCB8A010079D449 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		4CB0D9D21BCB8DCD0079D449 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		4CB0D9D31BCB8DCD0079D449 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		4CB505931BC27098001FBA7F /* Download+Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Download+Manager.h"; path = "NoMAD/Classes/General/Download/Download+Manager.h"; sourceTree = SOURCE_ROOT; };
+		4CB505941BC27098001FBA7F /* Download+Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Download+Manager.m"; path = "NoMAD/Classes/General/Download/Download+Manager.m"; sourceTree = SOURCE_ROOT; };
+		4CB505991BC270C8001FBA7F /* Download+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Download+Controller.h"; path = "NoMAD/Classes/General/Download/Download+Controller.h"; sourceTree = SOURCE_ROOT; };
+		4CB5059A1BC270C8001FBA7F /* Download+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Download+Controller.m"; path = "NoMAD/Classes/General/Download/Download+Controller.m"; sourceTree = SOURCE_ROOT; };
+		4CB5059C1BC27536001FBA7F /* File+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "File+Controller.h"; path = "NoMAD/Classes/General/File+Controller.h"; sourceTree = SOURCE_ROOT; };
+		4CB5059D1BC27536001FBA7F /* File+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "File+Controller.m"; path = "NoMAD/Classes/General/File+Controller.m"; sourceTree = SOURCE_ROOT; };
+		4CB5059F1BC27DFE001FBA7F /* Launch-Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Launch-Screen.xib"; path = "NoMAD/Launch-Screen.xib"; sourceTree = SOURCE_ROOT; };
+		4CB505A41BC37ECB001FBA7F /* Youtube+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Youtube+Controller.h"; path = "NoMAD/Classes/General/Controller/Youtube+Controller.h"; sourceTree = SOURCE_ROOT; };
+		4CB505A51BC37ECB001FBA7F /* Youtube+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Youtube+Controller.m"; path = "NoMAD/Classes/General/Controller/Youtube+Controller.m"; sourceTree = SOURCE_ROOT; };
+		4CB611AA1BCCE7B700D877C7 /* Price+View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Price+View.xib"; path = "Nomad/Resources/View/Price+View.xib"; sourceTree = SOURCE_ROOT; };
+		4CB611AC1BCCE85100D877C7 /* Price+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Price+View.h"; path = "Nomad/Classes/View/Price+View.h"; sourceTree = SOURCE_ROOT; };
+		4CB611AD1BCCE85100D877C7 /* Price+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Price+View.m"; path = "Nomad/Classes/View/Price+View.m"; sourceTree = SOURCE_ROOT; };
+		4CB611AF1BCCF75400D877C7 /* Price+Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Price+Cell.xib"; path = "Nomad/Resources/Cell/Price+Cell.xib"; sourceTree = SOURCE_ROOT; };
+		4CB611B11BCCF78900D877C7 /* Price+Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Price+Cell.h"; path = "Nomad/Classes/Cell/Price+Cell.h"; sourceTree = SOURCE_ROOT; };
+		4CB611B21BCCF78900D877C7 /* Price+Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Price+Cell.m"; path = "Nomad/Classes/Cell/Price+Cell.m"; sourceTree = SOURCE_ROOT; };
+		4CB611B91BCD38B000D877C7 /* Video+Profile+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Video+Profile+View.h"; path = "Nomad/Classes/View/Video+Profile+View.h"; sourceTree = SOURCE_ROOT; };
+		4CB611BA1BCD38B000D877C7 /* Video+Profile+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Video+Profile+View.m"; path = "Nomad/Classes/View/Video+Profile+View.m"; sourceTree = SOURCE_ROOT; };
+		4CB611BC1BCD396200D877C7 /* Video+Profile+Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Video+Profile+Cell.h"; path = "Nomad/Classes/Cell/Video+Profile+Cell.h"; sourceTree = SOURCE_ROOT; };
+		4CB611BD1BCD396200D877C7 /* Video+Profile+Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Video+Profile+Cell.m"; path = "Nomad/Classes/Cell/Video+Profile+Cell.m"; sourceTree = SOURCE_ROOT; };
+		4CB611BF1BCD3FA100D877C7 /* Video+Profile+View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Video+Profile+View.xib"; path = "Nomad/Resources/View/Video+Profile+View.xib"; sourceTree = SOURCE_ROOT; };
+		4CB611C11BCD401400D877C7 /* Video+Profile+Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Video+Profile+Cell.xib"; path = "Nomad/Resources/Cell/Video+Profile+Cell.xib"; sourceTree = SOURCE_ROOT; };
+		4CC091AF1BBE35B100CC35BA /* VideoType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VideoType.h; path = NoMAD/Classes/General/VideoType.h; sourceTree = SOURCE_ROOT; };
+		4CC091B01BBE75C800CC35BA /* Detail+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Detail+Controller.h"; path = "NoMAD/Classes/Controller/Detail+Controller.h"; sourceTree = SOURCE_ROOT; };
+		4CC091B11BBE75C800CC35BA /* Detail+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Detail+Controller.m"; path = "NoMAD/Classes/Controller/Detail+Controller.m"; sourceTree = SOURCE_ROOT; };
+		4CC091B31BBE7D3800CC35BA /* Detail+Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Detail+Controller.xib"; path = "NoMAD/Resources/Controller/Detail+Controller.xib"; sourceTree = SOURCE_ROOT; };
+		4CC091B51BBEACC500CC35BA /* Detail+Movie+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Detail+Movie+View.h"; path = "NoMAD/Classes/View/Detail+Movie+View.h"; sourceTree = SOURCE_ROOT; };
+		4CC091B61BBEACC500CC35BA /* Detail+Movie+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Detail+Movie+View.m"; path = "NoMAD/Classes/View/Detail+Movie+View.m"; sourceTree = SOURCE_ROOT; };
+		4CC091B81BBEAE0600CC35BA /* Detail+Movie+View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Detail+Movie+View.xib"; path = "NoMAD/Resources/View/Detail+Movie+View.xib"; sourceTree = SOURCE_ROOT; };
+		4CC091BA1BBEB0A200CC35BA /* URLType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = URLType.h; path = NoMAD/Classes/General/URLType.h; sourceTree = SOURCE_ROOT; };
+		4CC091BB1BBEDA2100CC35BA /* Movie+Detail+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Movie+Detail+Model.h"; path = "NoMAD/Classes/Model/Movie+Detail+Model.h"; sourceTree = SOURCE_ROOT; };
+		4CC091BC1BBEDA2100CC35BA /* Movie+Detail+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Movie+Detail+Model.m"; path = "NoMAD/Classes/Model/Movie+Detail+Model.m"; sourceTree = SOURCE_ROOT; };
+		4CC26FB21B419E8E00E988C4 /* App.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = App.plist; path = ../../../../NoMAD/v3/iOS/NoMAD/App.plist; sourceTree = "<group>"; };
+		4CD9F6A71B43949C00B9253C /* Alert+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Alert+Controller.h"; path = "NoMAD/Classes/General/Controller/Alert+Controller.h"; sourceTree = SOURCE_ROOT; };
+		4CD9F6A81B43949C00B9253C /* Alert+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Alert+Controller.m"; path = "NoMAD/Classes/General/Controller/Alert+Controller.m"; sourceTree = SOURCE_ROOT; };
+		4CD9F6A91B43949C00B9253C /* Date+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Date+Controller.h"; path = "NoMAD/Classes/General/Controller/Date+Controller.h"; sourceTree = SOURCE_ROOT; };
+		4CD9F6AA1B43949C00B9253C /* Date+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Date+Controller.m"; path = "NoMAD/Classes/General/Controller/Date+Controller.m"; sourceTree = SOURCE_ROOT; };
+		4CD9F6AD1B439E3100B9253C /* Date+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Date+View.h"; path = "NoMAD/Classes/View/Date+View.h"; sourceTree = SOURCE_ROOT; };
+		4CD9F6AE1B439E3100B9253C /* Date+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Date+View.m"; path = "NoMAD/Classes/View/Date+View.m"; sourceTree = SOURCE_ROOT; };
+		4CD9F6B01B439E5200B9253C /* Date+View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Date+View.xib"; path = "NoMAD/Resources/View/Date+View.xib"; sourceTree = SOURCE_ROOT; };
+		4CDE41841BB8FE1200C80F81 /* Facebook+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Facebook+Controller.h"; path = "NoMAD/Classes/General/Controller/Facebook+Controller.h"; sourceTree = SOURCE_ROOT; };
+		4CDE41851BB8FE1200C80F81 /* Facebook+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Facebook+Controller.m"; path = "NoMAD/Classes/General/Controller/Facebook+Controller.m"; sourceTree = SOURCE_ROOT; };
+		4CDE41871BB9029A00C80F81 /* Facebook+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Facebook+Model.h"; path = "NoMAD/Classes/Model/Facebook+Model.h"; sourceTree = SOURCE_ROOT; };
+		4CDE41881BB9029A00C80F81 /* Facebook+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Facebook+Model.m"; path = "NoMAD/Classes/Model/Facebook+Model.m"; sourceTree = SOURCE_ROOT; };
+		4CDE418A1BB935EA00C80F81 /* Forgot+Password+View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Forgot+Password+View.xib"; path = "NoMAD/Resources/View/Forgot+Password+View.xib"; sourceTree = SOURCE_ROOT; };
+		4CDE418C1BB939A900C80F81 /* Forgot+Password+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Forgot+Password+View.h"; path = "NoMAD/Classes/View/Forgot+Password+View.h"; sourceTree = SOURCE_ROOT; };
+		4CDE418D1BB939A900C80F81 /* Forgot+Password+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Forgot+Password+View.m"; path = "NoMAD/Classes/View/Forgot+Password+View.m"; sourceTree = SOURCE_ROOT; };
+		4CDE41931BB94D6200C80F81 /* Modal+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Modal+Controller.h"; path = "NoMAD/Classes/General/Controller/Modal+Controller.h"; sourceTree = SOURCE_ROOT; };
+		4CDE41941BB94D6200C80F81 /* Modal+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Modal+Controller.m"; path = "NoMAD/Classes/General/Controller/Modal+Controller.m"; sourceTree = SOURCE_ROOT; };
+		4CDE41961BBA8EEC00C80F81 /* Home+View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Home+View.xib"; path = "NoMAD/Resources/View/Home+View.xib"; sourceTree = SOURCE_ROOT; };
+		4CDE41981BBA93D300C80F81 /* Home+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Home+View.h"; path = "NoMAD/Classes/View/Home+View.h"; sourceTree = SOURCE_ROOT; };
+		4CDE41991BBA93D300C80F81 /* Home+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Home+View.m"; path = "NoMAD/Classes/View/Home+View.m"; sourceTree = SOURCE_ROOT; };
+		4CDE419B1BBA9B2200C80F81 /* Slider+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Slider+Model.h"; path = "NoMAD/Classes/Model/Slider+Model.h"; sourceTree = SOURCE_ROOT; };
+		4CDE419C1BBA9B2200C80F81 /* Slider+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Slider+Model.m"; path = "NoMAD/Classes/Model/Slider+Model.m"; sourceTree = SOURCE_ROOT; };
+		B7EBDEA9CC599F266618D45C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CF048B8DDEE424FC27B33553 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F19039DB0F82BA4D03503E8A /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C2B8AE71B40DF6C00CCEBD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB0D9D41BCB8DCD0079D449 /* FBSDKCoreKit.framework in Frameworks */,
+				4CB0D9D51BCB8DCD0079D449 /* FBSDKLoginKit.framework in Frameworks */,
+				4CB0D9D11BCB8A010079D449 /* Bolts.framework in Frameworks */,
+				4C641F711BCB7912009E15A8 /* Parse.framework in Frameworks */,
+				4C641F6D1BCB7904009E15A8 /* StoreKit.framework in Frameworks */,
+				4C641F6B1BCB78F4009E15A8 /* CoreGraphics.framework in Frameworks */,
+				4C641F691BCB78EA009E15A8 /* QuartzCore.framework in Frameworks */,
+				4C641F671BCB78D9009E15A8 /* CoreLocation.framework in Frameworks */,
+				4C641F5B1BCB6F95009E15A8 /* libsqlite3.0.tbd in Frameworks */,
+				4C3A82131B8C5CE8006576EA /* AudioToolbox.framework in Frameworks */,
+				4C3A82111B8C5C55006576EA /* AVFoundation.framework in Frameworks */,
+				4C3A820F1B8C5C43006576EA /* Accounts.framework in Frameworks */,
+				4C3A820D1B8C5C3D006576EA /* Social.framework in Frameworks */,
+				7FFD8FE2D7024D9C52D793AF /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06924A06A01810C52DCC6C26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CB0D9D21BCB8DCD0079D449 /* FBSDKCoreKit.framework */,
+				4CB0D9D31BCB8DCD0079D449 /* FBSDKLoginKit.framework */,
+				4CB0D9D01BCB8A010079D449 /* Bolts.framework */,
+				4C641F6F1BCB7912009E15A8 /* Parse.framework */,
+				4C641F6C1BCB7904009E15A8 /* StoreKit.framework */,
+				4C641F6A1BCB78F4009E15A8 /* CoreGraphics.framework */,
+				4C641F681BCB78EA009E15A8 /* QuartzCore.framework */,
+				4C641F661BCB78D9009E15A8 /* CoreLocation.framework */,
+				4C641F5A1BCB6F95009E15A8 /* libsqlite3.0.tbd */,
+				4C3A82121B8C5CE8006576EA /* AudioToolbox.framework */,
+				4C3A82101B8C5C55006576EA /* AVFoundation.framework */,
+				4C3A820E1B8C5C43006576EA /* Accounts.framework */,
+				4C3A820C1B8C5C3D006576EA /* Social.framework */,
+				F19039DB0F82BA4D03503E8A /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C0CE0761BD6086200B995F3 /* Serial */ = {
+			isa = PBXGroup;
+			children = (
+				4C295EC81BC7D87200612F0A /* Serial+URL+Manager.h */,
+				4C295EC91BC7D87200612F0A /* Serial+URL+Manager.m */,
+			);
+			name = Serial;
+			sourceTree = "<group>";
+		};
+		4C104B2E1BD121BA00904135 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				4C220D661BD77EDE0059C13C /* File+Server+Controller.h */,
+				4C220D671BD77EDE0059C13C /* File+Server+Controller.m */,
+				4C220D6A1BD77EDE0059C13C /* Server+Config.h */,
+				4C220D6B1BD77EDE0059C13C /* Server+Config.m */,
+			);
+			name = Server;
+			sourceTree = "<group>";
+		};
+		4C295EB71BC67B5200612F0A /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				4C885C3D1BBD2CF800D70791 /* Movie+Model.h */,
+				4C885C3E1BBD2CF800D70791 /* Movie+Model.m */,
+				4CC091BB1BBEDA2100CC35BA /* Movie+Detail+Model.h */,
+				4CC091BC1BBEDA2100CC35BA /* Movie+Detail+Model.m */,
+				4CAAB1E91BC3EDD200867B91 /* Movie+Cast+Model.h */,
+				4CAAB1EA1BC3EDD200867B91 /* Movie+Cast+Model.m */,
+				4CAAB1EC1BC3EFB500867B91 /* Movie+Director+Model.h */,
+				4CAAB1ED1BC3EFB500867B91 /* Movie+Director+Model.m */,
+				4C00B3DC1BC51DD200EAF6C5 /* Movie+Genre+Model.h */,
+				4C00B3DD1BC51DD200EAF6C5 /* Movie+Genre+Model.m */,
+				4C00B3D61BC5189C00EAF6C5 /* Movie+Related+Model.h */,
+				4C00B3D71BC5189C00EAF6C5 /* Movie+Related+Model.m */,
+			);
+			name = Movie;
+			sourceTree = "<group>";
+		};
+		4C295EB81BC67B6B00612F0A /* Serial */ = {
+			isa = PBXGroup;
+			children = (
+				4C0D6B961BC23569006FD6AF /* Serial+Model.h */,
+				4C0D6B971BC23569006FD6AF /* Serial+Model.m */,
+				4C295EB41BC67B4B00612F0A /* Serial+Detail+Model.h */,
+				4C295EB51BC67B4B00612F0A /* Serial+Detail+Model.m */,
+				4C0CE0771BD6358000B995F3 /* Serial+Episode+Model.h */,
+				4C0CE0781BD6358000B995F3 /* Serial+Episode+Model.m */,
+				4C00E0B61BD66432005219A6 /* Serial+Related+Model.h */,
+				4C00E0B71BD66432005219A6 /* Serial+Related+Model.m */,
+			);
+			name = Serial;
+			sourceTree = "<group>";
+		};
+		4C295EC41BC7D7EC00612F0A /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				4C295EC51BC7D80E00612F0A /* Movie+URL+Manager.h */,
+				4C295EC61BC7D80E00612F0A /* Movie+URL+Manager.m */,
+			);
+			name = Movie;
+			sourceTree = "<group>";
+		};
+		4C2B8AE11B40DF6C00CCEBD1 = {
+			isa = PBXGroup;
+			children = (
+				4C2B8AEC1B40DF6C00CCEBD1 /* Nomad */,
+				4C2B8AEB1B40DF6C00CCEBD1 /* Products */,
+				B5144806ACF589CB94F51AA2 /* Pods */,
+				06924A06A01810C52DCC6C26 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C2B8AEB1B40DF6C00CCEBD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C2B8AEA1B40DF6C00CCEBD1 /* Nomad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C2B8AEC1B40DF6C00CCEBD1 /* Nomad */ = {
+			isa = PBXGroup;
+			children = (
+				4C2B8B171B40E13700CCEBD1 /* Resources */,
+				4C2B8B131B40E11800CCEBD1 /* Classes */,
+				4C2B8AED1B40DF6C00CCEBD1 /* Supporting Files */,
+			);
+			name = Nomad;
+			path = NoMad;
+			sourceTree = "<group>";
+		};
+		4C2B8AED1B40DF6C00CCEBD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C82C8C41BCFCDDB00EAB2AE /* db.sqlite */,
+				4C2B8AFA1B40DF6D00CCEBD1 /* Images.xcassets */,
+				4C2B8B251B40ECD300CCEBD1 /* Nomad-Prefix.pch */,
+				4C2B8AF11B40DF6C00CCEBD1 /* AppDelegate.h */,
+				4C2B8AF21B40DF6C00CCEBD1 /* AppDelegate.m */,
+				4C2B8AEE1B40DF6C00CCEBD1 /* Info.plist */,
+				4C2B8AEF1B40DF6C00CCEBD1 /* main.m */,
+				4CC26FB21B419E8E00E988C4 /* App.plist */,
+				4C3A82051B8C432D006576EA /* Menu.plist */,
+				4C2415661B945F9000B9E877 /* Layout.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C2B8B131B40E11800CCEBD1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4C2B8B161B40E13000CCEBD1 /* Controller */,
+				4C2B8B151B40E12900CCEBD1 /* View */,
+				4C3A821B1B8ECB7A006576EA /* Cell */,
+				4C2B8B3B1B40EE6100CCEBD1 /* Model */,
+				4C2B8B141B40E12100CCEBD1 /* General */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		4C2B8B141B40E12100CCEBD1 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				4C2B8B261B40ECF000CCEBD1 /* Controller */,
+				4C104B2E1BD121BA00904135 /* Server */,
+				4C8F3B901BD0DF4C005B12AB /* Layout */,
+				4CB505921BC2706E001FBA7F /* Download */,
+				4C2B8B2A1B40ED8900CCEBD1 /* URL */,
+				4C2B8B191B40E3FF00CCEBD1 /* Session */,
+				4C2B8B1A1B40E50500CCEBD1 /* Config.h */,
+				4C2B8B1B1B40E50500CCEBD1 /* Config.m */,
+				4C2B8B221B40EB8D00CCEBD1 /* Global+Variables.h */,
+				4C2B8B231B40EB8D00CCEBD1 /* Global+Variables.m */,
+				4CC091AF1BBE35B100CC35BA /* VideoType.h */,
+				4CC091BA1BBEB0A200CC35BA /* URLType.h */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		4C2B8B151B40E12900CCEBD1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4CD9F6AD1B439E3100B9253C /* Date+View.h */,
+				4CD9F6AE1B439E3100B9253C /* Date+View.m */,
+				4CDE418C1BB939A900C80F81 /* Forgot+Password+View.h */,
+				4CDE418D1BB939A900C80F81 /* Forgot+Password+View.m */,
+				4C3A82091B8C44A2006576EA /* Menu+View.h */,
+				4C3A820A1B8C44A2006576EA /* Menu+View.m */,
+				4C0156BC1B9041BB0069F495 /* Slider+View.h */,
+				4C0156BD1B9041BB0069F495 /* Slider+View.m */,
+				4CDE41981BBA93D300C80F81 /* Home+View.h */,
+				4CDE41991BBA93D300C80F81 /* Home+View.m */,
+				4C8F3B8D1BD0D4AC005B12AB /* Home+Menu+View.h */,
+				4C8F3B8E1BD0D4AC005B12AB /* Home+Menu+View.m */,
+				4CC091B51BBEACC500CC35BA /* Detail+Movie+View.h */,
+				4CC091B61BBEACC500CC35BA /* Detail+Movie+View.m */,
+				4C85530E1BD6400300142C15 /* Detail+Serial+View.h */,
+				4C85530F1BD6400300142C15 /* Detail+Serial+View.m */,
+				4CAAB1EF1BC3F0EB00867B91 /* Review+Movie+View.h */,
+				4CAAB1F01BC3F0EB00867B91 /* Review+Movie+View.m */,
+				4C00E0B21BD660BB005219A6 /* Comment+Serial+View.h */,
+				4C00E0B31BD660BB005219A6 /* Comment+Serial+View.m */,
+				4CAAB1F21BC3F0FD00867B91 /* Related+Movie+View.h */,
+				4CAAB1F31BC3F0FD00867B91 /* Related+Movie+View.m */,
+				4C00E0B01BD660BB005219A6 /* Related+Serial+View.h */,
+				4C00E0B11BD660BB005219A6 /* Related+Serial+View.m */,
+				4CB611AC1BCCE85100D877C7 /* Price+View.h */,
+				4CB611AD1BCCE85100D877C7 /* Price+View.m */,
+				4CB611B91BCD38B000D877C7 /* Video+Profile+View.h */,
+				4CB611BA1BCD38B000D877C7 /* Video+Profile+View.m */,
+				4C6E88C31BCCADA700DAEA94 /* Member+Review+View.h */,
+				4C6E88C41BCCADA700DAEA94 /* Member+Review+View.m */,
+				2718095D1BF89D9700989C2E /* Member+Comment+View.h */,
+				2718095E1BF89D9700989C2E /* Member+Comment+View.m */,
+				4C24155B1B94484500B9E877 /* Home+Potrait+View.h */,
+				4C24155C1B94484500B9E877 /* Home+Potrait+View.m */,
+				4C8F3B9A1BD0E13C005B12AB /* Home+Potrait+2+View.h */,
+				4C8F3B9B1BD0E13C005B12AB /* Home+Potrait+2+View.m */,
+				4C2415601B944B8200B9E877 /* Potrait+View.h */,
+				4C2415611B944B8200B9E877 /* Potrait+View.m */,
+				4C24156F1B95A81000B9E877 /* Home+Landscape+Thumb+View.h */,
+				4C2415701B95A81000B9E877 /* Home+Landscape+Thumb+View.m */,
+				4C2415711B95A81000B9E877 /* Home+Landscape+View.h */,
+				4C2415721B95A81000B9E877 /* Home+Landscape+View.m */,
+				4C2415771B95AE4100B9E877 /* Home+Landscape+2+View.h */,
+				4C2415781B95AE4100B9E877 /* Home+Landscape+2+View.m */,
+				276B65411BEB6B9A00AB053D /* Home+Landscape+3+View.h */,
+				276B65421BEB6B9A00AB053D /* Home+Landscape+3+View.m */,
+				27A187241BE1F00E000EB05D /* Video+Player+View.h */,
+				27A187251BE1F00E000EB05D /* Video+Player+View.m */,
+				27D709F91BEA44CA004DB74F /* Point+Buy+View.h */,
+				27D709FA1BEA44CA004DB74F /* Point+Buy+View.m */,
+				27D709FC1BEA454D004DB74F /* Point+Free+View.h */,
+				27D709FD1BEA454D004DB74F /* Point+Free+View.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4C2B8B161B40E13000CCEBD1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C2B8B4F1B410D1000CCEBD1 /* Land+Controller.h */,
+				4C2B8B501B410D1000CCEBD1 /* Land+Controller.m */,
+				4C44D33A1B7B184B004E685D /* Credential+Controller.h */,
+				4C44D33B1B7B184B004E685D /* Credential+Controller.m */,
+				4C3A82231B8F07B5006576EA /* Menu+Controller.h */,
+				4C3A82241B8F07B5006576EA /* Menu+Controller.m */,
+				4C44D3411B7B43EF004E685D /* Menu+Logged+Controller.h */,
+				4C44D3421B7B43EF004E685D /* Menu+Logged+Controller.m */,
+				4C3A82001B8C31B2006576EA /* Nav+Controller.h */,
+				4C3A82011B8C31B2006576EA /* Nav+Controller.m */,
+				4C2B8B441B40F14C00CCEBD1 /* Home+Controller.h */,
+				4C2B8B451B40F14C00CCEBD1 /* Home+Controller.m */,
+				4C6E88C61BCCB89F00DAEA94 /* Home+Menu+Controller.h */,
+				4C6E88C71BCCB89F00DAEA94 /* Home+Menu+Controller.m */,
+				4CC091B01BBE75C800CC35BA /* Detail+Controller.h */,
+				4CC091B11BBE75C800CC35BA /* Detail+Controller.m */,
+				4C2E1BE81BC4D6AE00861B0A /* Search+Controller.h */,
+				4C2E1BE91BC4D6AE00861B0A /* Search+Controller.m */,
+				4C295EC11BC7D3A700612F0A /* Web+Controller.h */,
+				4C295EC21BC7D3A700612F0A /* Web+Controller.m */,
+				4C104B3A1BD3686400904135 /* Download+List+Controller.h */,
+				4C104B3B1BD3686400904135 /* Download+List+Controller.m */,
+				4C104B421BD3972F00904135 /* Video+Player+Controller.h */,
+				4C104B431BD3972F00904135 /* Video+Player+Controller.m */,
+				27D709EC1BE9054B004DB74F /* Point+Controller.h */,
+				27D709ED1BE9054B004DB74F /* Point+Controller.m */,
+				276B653E1BEB674D00AB053D /* Profile+Controller.h */,
+				276B653F1BEB674D00AB053D /* Profile+Controller.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4C2B8B171B40E13700CCEBD1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C2B8B471B40F19E00CCEBD1 /* Controller */,
+				4C2B8B181B40E14300CCEBD1 /* View */,
+				4C3A82181B8ECB42006576EA /* Cell */,
+				4C2B8B1E1B40EA9400CCEBD1 /* Assets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4C2B8B181B40E14300CCEBD1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4CD9F6B01B439E5200B9253C /* Date+View.xib */,
+				4CDE418A1BB935EA00C80F81 /* Forgot+Password+View.xib */,
+				4C6E88C11BCBBCB800DAEA94 /* Member+Review+View.xib */,
+				2718095B1BF89D5D00989C2E /* Member+Comment+View.xib */,
+				4C3A82071B8C447A006576EA /* Menu+View.xib */,
+				4CDE41961BBA8EEC00C80F81 /* Home+View.xib */,
+				4C8F3B9F1BD0E5B5005B12AB /* Home+Menu+View.xib */,
+				4C0156BF1B9060010069F495 /* Slider+View.xib */,
+				4CC091B81BBEAE0600CC35BA /* Detail+Movie+View.xib */,
+				4C85530C1BD63FEC00142C15 /* Detail+Serial+View.xib */,
+				4CAAB1F51BC3F11600867B91 /* Review+Movie+View.xib */,
+				4C00E0A81BD65FA1005219A6 /* Comment+Serial+View.xib */,
+				4CAAB1F71BC3F12700867B91 /* Related+Movie+View.xib */,
+				4C00E0A71BD65FA1005219A6 /* Related+Serial+View.xib */,
+				4CB611AA1BCCE7B700D877C7 /* Price+View.xib */,
+				4CB611BF1BCD3FA100D877C7 /* Video+Profile+View.xib */,
+				4C2415551B942FC000B9E877 /* Home+Potrait+View.xib */,
+				4C8F3B9D1BD0E539005B12AB /* Home+Potrait+2+View.xib */,
+				4C24156B1B95A78E00B9E877 /* Home+Landscape+Thumb+View.xib */,
+				4C24156C1B95A78E00B9E877 /* Home+Landscape+View.xib */,
+				4C2415751B95AE3200B9E877 /* Home+Landscape+2+View.xib */,
+				276B65471BEB701000AB053D /* Home+Landscape+3+View.xib */,
+				4C24155E1B944B2100B9E877 /* Potrait+View.xib */,
+				27A187221BE1EFD2000EB05D /* Video+Player+View.xib */,
+				27D709FF1BEA4A61004DB74F /* Point+Buy+View.xib */,
+				27D70A031BEA4BFC004DB74F /* Point+Free+View.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4C2B8B191B40E3FF00CCEBD1 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				4C2B8B341B40EDFA00CCEBD1 /* User+Session.h */,
+				4C2B8B351B40EDFA00CCEBD1 /* User+Session.m */,
+				4C3A82291B8F0B6D006576EA /* Menu+Session.h */,
+				4C3A822A1B8F0B6D006576EA /* Menu+Session.m */,
+				4C295EBC1BC7AC9400612F0A /* Home+Session.h */,
+				4C295EBD1BC7AC9400612F0A /* Home+Session.m */,
+			);
+			name = Session;
+			sourceTree = "<group>";
+		};
+		4C2B8B1E1B40EA9400CCEBD1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4C2415571B9431D200B9E877 /* Roboto-Bold.ttf */,
+				4C2415581B9431D200B9E877 /* Roboto-Regular.ttf */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		4C2B8B261B40ECF000CCEBD1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CB505A41BC37ECB001FBA7F /* Youtube+Controller.h */,
+				4CB505A51BC37ECB001FBA7F /* Youtube+Controller.m */,
+				4C0D6B931BC22842006FD6AF /* Video+Controller.h */,
+				4C0D6B941BC22842006FD6AF /* Video+Controller.m */,
+				4CD9F6A91B43949C00B9253C /* Date+Controller.h */,
+				4CD9F6AA1B43949C00B9253C /* Date+Controller.m */,
+				4C2B8B3C1B40EF6900CCEBD1 /* SQL+Controller.h */,
+				4C2B8B3D1B40EF6900CCEBD1 /* SQL+Controller.m */,
+				4C82C8C61BCFCE5500EAB2AE /* Query+Controller.h */,
+				4C82C8C71BCFCE5500EAB2AE /* Query+Controller.m */,
+				4C2B8B2E1B40EDD200CCEBD1 /* App+Controller.h */,
+				4C2B8B2F1B40EDD200CCEBD1 /* App+Controller.m */,
+				4C2B8B301B40EDD200CCEBD1 /* Global+Controller.h */,
+				4C2B8B311B40EDD200CCEBD1 /* Global+Controller.m */,
+				4CD9F6A71B43949C00B9253C /* Alert+Controller.h */,
+				4CD9F6A81B43949C00B9253C /* Alert+Controller.m */,
+				4C5E0B981B8AF7D2005DAE5B /* Loading+Controller.h */,
+				4C5E0B991B8AF7D2005DAE5B /* Loading+Controller.m */,
+				4CDE41841BB8FE1200C80F81 /* Facebook+Controller.h */,
+				4CDE41851BB8FE1200C80F81 /* Facebook+Controller.m */,
+				4CDE41931BB94D6200C80F81 /* Modal+Controller.h */,
+				4CDE41941BB94D6200C80F81 /* Modal+Controller.m */,
+				4CB5059C1BC27536001FBA7F /* File+Controller.h */,
+				4CB5059D1BC27536001FBA7F /* File+Controller.m */,
+				4C8F3B871BD0AFC6005B12AB /* Secure+Controller.h */,
+				4C8F3B881BD0AFC6005B12AB /* Secure+Controller.m */,
+				27A1871D1BE1C306000EB05D /* CustomMMDrawerController.h */,
+				27A1871E1BE1C306000EB05D /* CustomMMDrawerController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4C2B8B2A1B40ED8900CCEBD1 /* URL */ = {
+			isa = PBXGroup;
+			children = (
+				4C0CE0761BD6086200B995F3 /* Serial */,
+				4C295EC41BC7D7EC00612F0A /* Movie */,
+				4C2B8B2B1B40EDA800CCEBD1 /* URL+Config.h */,
+				4C2B8B2C1B40EDA800CCEBD1 /* URL+Config.m */,
+				4C2B8B4C1B40F2DA00CCEBD1 /* URL+Controller.h */,
+				4C2B8B4D1B40F2DA00CCEBD1 /* URL+Controller.m */,
+				4C5E0BA11B8B0425005DAE5B /* URL+Manager.h */,
+				4C5E0BA21B8B0425005DAE5B /* URL+Manager.m */,
+			);
+			name = URL;
+			sourceTree = "<group>";
+		};
+		4C2B8B3B1B40EE6100CCEBD1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C295EB71BC67B5200612F0A /* Movie */,
+				4C295EB81BC67B6B00612F0A /* Serial */,
+				4C5E0B9E1B8AFF88005DAE5B /* Response+Model.h */,
+				4C5E0B9F1B8AFF88005DAE5B /* Response+Model.m */,
+				27D709F61BE9F1AF004DB74F /* Me+Model.h */,
+				27D709F71BE9F1AF004DB74F /* Me+Model.m */,
+				4C2B8B381B40EE5E00CCEBD1 /* User+Model.h */,
+				4C2B8B391B40EE5E00CCEBD1 /* User+Model.m */,
+				4C5E0B9B1B8AFF1B005DAE5B /* Login+Model.h */,
+				4C5E0B9C1B8AFF1B005DAE5B /* Login+Model.m */,
+				4C3A822C1B8F0C40006576EA /* Category+Model.h */,
+				4C3A822D1B8F0C40006576EA /* Category+Model.m */,
+				4CDE419B1BBA9B2200C80F81 /* Slider+Model.h */,
+				4CDE419C1BBA9B2200C80F81 /* Slider+Model.m */,
+				4C0D6B991BC24F98006FD6AF /* Price+Model.h */,
+				4C0D6B9A1BC24F98006FD6AF /* Price+Model.m */,
+				4C2E1BED1BC4DA3C00861B0A /* Menu+Model.h */,
+				4C2E1BEE1BC4DA3C00861B0A /* Menu+Model.m */,
+				4C3A822F1B8F1203006576EA /* Menu+Category+Model.h */,
+				4C3A82301B8F1203006576EA /* Menu+Category+Model.m */,
+				4CDE41871BB9029A00C80F81 /* Facebook+Model.h */,
+				4CDE41881BB9029A00C80F81 /* Facebook+Model.m */,
+				4C2E1BFA1BC4F5B500861B0A /* Search+Model.h */,
+				4C2E1BFB1BC4F5B500861B0A /* Search+Model.m */,
+				4C295EB91BC7725800612F0A /* Member+Model.h */,
+				4C295EBA1BC7725800612F0A /* Member+Model.m */,
+				4C82C8C91BCFD17F00EAB2AE /* Download+Model.h */,
+				4C82C8CA1BCFD17F00EAB2AE /* Download+Model.m */,
+				27BE32D81BDE1B8D00562324 /* Purchased+Model.h */,
+				27BE32D91BDE1B8D00562324 /* Purchased+Model.m */,
+				4C104B351BD2B09E00904135 /* Video+Player+Model.h */,
+				4C104B361BD2B09E00904135 /* Video+Player+Model.m */,
+				27D709E91BE8F984004DB74F /* Paid+Point+Model.h */,
+				27D709EA1BE8F984004DB74F /* Paid+Point+Model.m */,
+				27D70A081BEA4D3C004DB74F /* Free+Point+Model.h */,
+				27D70A091BEA4D3C004DB74F /* Free+Point+Model.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4C2B8B471B40F19E00CCEBD1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C44D33F1B7B3344004E685D /* Credential+Controller.xib */,
+				4C2B8B521B4119B200CCEBD1 /* Land+Controller.xib */,
+				4C2B8B4A1B40F20000CCEBD1 /* Home+Controller.xib */,
+				4C6E88C91BCCB8D000DAEA94 /* Home+Menu+Controller.xib */,
+				4C104B381BD3681E00904135 /* Download+List+Controller.xib */,
+				4C3A82211B8F07A7006576EA /* Menu+Controller.xib */,
+				4C3A81FB1B8C2B22006576EA /* Menu+Logged+Controller.xib */,
+				4C3A82031B8C332A006576EA /* Nav+Controller.xib */,
+				4CC091B31BBE7D3800CC35BA /* Detail+Controller.xib */,
+				4C2E1BEB1BC4D89300861B0A /* Search+Controller.xib */,
+				4C295EBF1BC7D38200612F0A /* Web+Controller.xib */,
+				4C104B451BD3981400904135 /* Video+Player+Controller.xib */,
+				4CB5059F1BC27DFE001FBA7F /* Launch-Screen.xib */,
+				27D709F41BE9200E004DB74F /* Point+Controller.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4C3A82181B8ECB42006576EA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4C3A821F1B8F079B006576EA /* Menu+Cell.xib */,
+				4C3A82191B8ECB6D006576EA /* Menu+Logged+Cell.xib */,
+				4C2E1BF01BC4F04A00861B0A /* Search+Cell.xib */,
+				4C00B3DF1BC5277B00EAF6C5 /* Review+Movie+Cell.xib */,
+				4C00E0AB1BD66007005219A6 /* Comment+Serial+Cell.xib */,
+				4C220D531BD75A130059C13C /* Serial+Episode+Cell.xib */,
+				276B65491BEB72AD00AB053D /* Home+Landscape+3+Cell.xib */,
+				4CB611AF1BCCF75400D877C7 /* Price+Cell.xib */,
+				4CB611C11BCD401400D877C7 /* Video+Profile+Cell.xib */,
+				4C104B3D1BD383D000904135 /* Download+List+Cell.xib */,
+				27D709F21BE913CE004DB74F /* Point+Cell.xib */,
+				27D70A0B1BEA5135004DB74F /* Point+Free+Cell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		4C3A821B1B8ECB7A006576EA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4C3A82261B8F07CE006576EA /* Menu+Cell.h */,
+				4C3A82271B8F07CE006576EA /* Menu+Cell.m */,
+				4C3A821C1B8ECB8F006576EA /* Menu+Logged+Cell.h */,
+				4C3A821D1B8ECB8F006576EA /* Menu+Logged+Cell.m */,
+				276B65441BEB6DBD00AB053D /* Home+Landscape+3+Cell.h */,
+				276B65451BEB6DBD00AB053D /* Home+Landscape+3+Cell.m */,
+				4C2E1BF21BC4F06100861B0A /* Search+Cell.h */,
+				4C2E1BF31BC4F06100861B0A /* Search+Cell.m */,
+				4C00B3E11BC53C8900EAF6C5 /* Review+Movie+Cell.h */,
+				4C00B3E21BC53C8900EAF6C5 /* Review+Movie+Cell.m */,
+				4C00E0AD1BD6601A005219A6 /* Comment+Serial+Cell.h */,
+				4C00E0AE1BD6601A005219A6 /* Comment+Serial+Cell.m */,
+				4C220D551BD75A260059C13C /* Serial+Episode+Cell.h */,
+				4C220D561BD75A260059C13C /* Serial+Episode+Cell.m */,
+				4CB611B11BCCF78900D877C7 /* Price+Cell.h */,
+				4CB611B21BCCF78900D877C7 /* Price+Cell.m */,
+				4CB611BC1BCD396200D877C7 /* Video+Profile+Cell.h */,
+				4CB611BD1BCD396200D877C7 /* Video+Profile+Cell.m */,
+				4C104B3F1BD383E800904135 /* Download+List+Cell.h */,
+				4C104B401BD383E800904135 /* Download+List+Cell.m */,
+				27D709EF1BE9068C004DB74F /* Point+Cell.h */,
+				27D709F01BE9068C004DB74F /* Point+Cell.m */,
+				27D70A051BEA4CCB004DB74F /* Point+Free+Cell.h */,
+				27D70A061BEA4CCB004DB74F /* Point+Free+Cell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		4C8F3B901BD0DF4C005B12AB /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				4C8F3B971BD0DFAC005B12AB /* Layout+Config.h */,
+				4C8F3B981BD0DFAC005B12AB /* Layout+Config.m */,
+				4C8F3B911BD0DF99005B12AB /* Layout+Controller.h */,
+				4C8F3B921BD0DF99005B12AB /* Layout+Controller.m */,
+				4C8F3B931BD0DF99005B12AB /* Layout+Menu+Controller.h */,
+				4C8F3B941BD0DF99005B12AB /* Layout+Menu+Controller.m */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		4CB505921BC2706E001FBA7F /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				4CB505931BC27098001FBA7F /* Download+Manager.h */,
+				4CB505941BC27098001FBA7F /* Download+Manager.m */,
+				4CB505991BC270C8001FBA7F /* Download+Controller.h */,
+				4CB5059A1BC270C8001FBA7F /* Download+Controller.m */,
+			);
+			name = Download;
+			sourceTree = "<group>";
+		};
+		B5144806ACF589CB94F51AA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF048B8DDEE424FC27B33553 /* Pods.debug.xcconfig */,
+				B7EBDEA9CC599F266618D45C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C2B8AE91B40DF6C00CCEBD1 /* NoMAD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C2B8B0D1B40DF6D00CCEBD1 /* Build configuration list for PBXNativeTarget "NoMAD" */;
+			buildPhases = (
+				564C524F7B3C8D0794333754 /* Check Pods Manifest.lock */,
+				4C2B8AE61B40DF6C00CCEBD1 /* Sources */,
+				4C2B8AE71B40DF6C00CCEBD1 /* Frameworks */,
+				4C2B8AE81B40DF6C00CCEBD1 /* Resources */,
+				845E3E6DF6030B98D4C72E4C /* Copy Pods Resources */,
+				A99EEFE39C44C7BB2B5FAA71 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoMAD;
+			productName = NoMad;
+			productReference = 4C2B8AEA1B40DF6C00CCEBD1 /* Nomad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C2B8AE21B40DF6C00CCEBD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "PT. Allega Tunas Karsa";
+				TargetAttributes = {
+					4C2B8AE91B40DF6C00CCEBD1 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = TJTY5288F7;
+					};
+				};
+			};
+			buildConfigurationList = 4C2B8AE51B40DF6C00CCEBD1 /* Build configuration list for PBXProject "Nomad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C2B8AE11B40DF6C00CCEBD1;
+			productRefGroup = 4C2B8AEB1B40DF6C00CCEBD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C2B8AE91B40DF6C00CCEBD1 /* NoMAD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C2B8AE81B40DF6C00CCEBD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D70A041BEA4BFC004DB74F /* Point+Free+View.xib in Resources */,
+				4C00E0A91BD65FA1005219A6 /* Related+Serial+View.xib in Resources */,
+				27D709F51BE9200E004DB74F /* Point+Controller.xib in Resources */,
+				4C3A82201B8F079B006576EA /* Menu+Cell.xib in Resources */,
+				4C6E88CA1BCCB8D000DAEA94 /* Home+Menu+Controller.xib in Resources */,
+				4C2B8B4B1B40F20000CCEBD1 /* Home+Controller.xib in Resources */,
+				4CDE41971BBA8EEC00C80F81 /* Home+View.xib in Resources */,
+				27A187231BE1EFD2000EB05D /* Video+Player+View.xib in Resources */,
+				4C24156D1B95A78E00B9E877 /* Home+Landscape+Thumb+View.xib in Resources */,
+				4C2415761B95AE3200B9E877 /* Home+Landscape+2+View.xib in Resources */,
+				276B654A1BEB72AD00AB053D /* Home+Landscape+3+Cell.xib in Resources */,
+				4CAAB1F61BC3F11600867B91 /* Review+Movie+View.xib in Resources */,
+				4C00E0AC1BD66007005219A6 /* Comment+Serial+Cell.xib in Resources */,
+				4C220D541BD75A130059C13C /* Serial+Episode+Cell.xib in Resources */,
+				4C3A82081B8C447A006576EA /* Menu+View.xib in Resources */,
+				4C8F3BA01BD0E5B5005B12AB /* Home+Menu+View.xib in Resources */,
+				27D70A001BEA4A61004DB74F /* Point+Buy+View.xib in Resources */,
+				4C00E0AA1BD65FA1005219A6 /* Comment+Serial+View.xib in Resources */,
+				4C3A81FC1B8C2B22006576EA /* Menu+Logged+Controller.xib in Resources */,
+				2718095C1BF89D5D00989C2E /* Member+Comment+View.xib in Resources */,
+				4C104B391BD3681E00904135 /* Download+List+Controller.xib in Resources */,
+				4C3A82061B8C432D006576EA /* Menu.plist in Resources */,
+				4CAAB1F81BC3F12700867B91 /* Related+Movie+View.xib in Resources */,
+				4C2E1BEC1BC4D89300861B0A /* Search+Controller.xib in Resources */,
+				4CB611C21BCD401400D877C7 /* Video+Profile+Cell.xib in Resources */,
+				27D709F31BE913CE004DB74F /* Point+Cell.xib in Resources */,
+				4CB611B01BCCF75400D877C7 /* Price+Cell.xib in Resources */,
+				4C2415671B945F9000B9E877 /* Layout.plist in Resources */,
+				4CD9F6B11B439E5200B9253C /* Date+View.xib in Resources */,
+				4CB505A01BC27DFE001FBA7F /* Launch-Screen.xib in Resources */,
+				4C8F3B9E1BD0E539005B12AB /* Home+Potrait+2+View.xib in Resources */,
+				4CC091B41BBE7D3800CC35BA /* Detail+Controller.xib in Resources */,
+				4C85530D1BD63FEC00142C15 /* Detail+Serial+View.xib in Resources */,
+				4CB611C01BCD3FA100D877C7 /* Video+Profile+View.xib in Resources */,
+				4C2415561B942FC000B9E877 /* Home+Potrait+View.xib in Resources */,
+				4C44D3401B7B3344004E685D /* Credential+Controller.xib in Resources */,
+				4C82C8C51BCFCDDB00EAB2AE /* db.sqlite in Resources */,
+				4C104B3E1BD383D000904135 /* Download+List+Cell.xib in Resources */,
+				4C0156C01B9060010069F495 /* Slider+View.xib in Resources */,
+				4C2B8AFB1B40DF6D00CCEBD1 /* Images.xcassets in Resources */,
+				27D70A0C1BEA5135004DB74F /* Point+Free+Cell.xib in Resources */,
+				4C24155F1B944B2100B9E877 /* Potrait+View.xib in Resources */,
+				4C3A82041B8C332A006576EA /* Nav+Controller.xib in Resources */,
+				4C00B3E01BC5277B00EAF6C5 /* Review+Movie+Cell.xib in Resources */,
+				4C295EC01BC7D38200612F0A /* Web+Controller.xib in Resources */,
+				4C3A82221B8F07A7006576EA /* Menu+Controller.xib in Resources */,
+				4C2415591B9431D200B9E877 /* Roboto-Bold.ttf in Resources */,
+				4CC091B91BBEAE0600CC35BA /* Detail+Movie+View.xib in Resources */,
+				4C2E1BF11BC4F04A00861B0A /* Search+Cell.xib in Resources */,
+				4C24155A1B9431D200B9E877 /* Roboto-Regular.ttf in Resources */,
+				4C3A821A1B8ECB6D006576EA /* Menu+Logged+Cell.xib in Resources */,
+				4C24156E1B95A78E00B9E877 /* Home+Landscape+View.xib in Resources */,
+				4CB611AB1BCCE7B700D877C7 /* Price+View.xib in Resources */,
+				4C6E88C21BCBBCB800DAEA94 /* Member+Review+View.xib in Resources */,
+				4CC26FB31B419E8E00E988C4 /* App.plist in Resources */,
+				4CDE418B1BB935EA00C80F81 /* Forgot+Password+View.xib in Resources */,
+				276B65481BEB701000AB053D /* Home+Landscape+3+View.xib in Resources */,
+				4C104B461BD3981400904135 /* Video+Player+Controller.xib in Resources */,
+				4C2B8B531B4119B200CCEBD1 /* Land+Controller.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		564C524F7B3C8D0794333754 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		845E3E6DF6030B98D4C72E4C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A99EEFE39C44C7BB2B5FAA71 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C2B8AE61B40DF6C00CCEBD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB611BB1BCD38B000D877C7 /* Video+Profile+View.m in Sources */,
+				4C3A822B1B8F0B6D006576EA /* Menu+Session.m in Sources */,
+				4C00E0B41BD660BB005219A6 /* Related+Serial+View.m in Sources */,
+				4C8F3B961BD0DF99005B12AB /* Layout+Menu+Controller.m in Sources */,
+				4C8F3B8F1BD0D4AC005B12AB /* Home+Menu+View.m in Sources */,
+				4C00E0AF1BD6601A005219A6 /* Comment+Serial+Cell.m in Sources */,
+				4C5E0B9A1B8AF7D2005DAE5B /* Loading+Controller.m in Sources */,
+				276B65461BEB6DBD00AB053D /* Home+Landscape+3+Cell.m in Sources */,
+				27D709FE1BEA454D004DB74F /* Point+Free+View.m in Sources */,
+				4C295EB61BC67B4B00612F0A /* Serial+Detail+Model.m in Sources */,
+				4C885C3F1BBD2CF800D70791 /* Movie+Model.m in Sources */,
+				4C2415621B944B8200B9E877 /* Potrait+View.m in Sources */,
+				4CD9F6AB1B43949C00B9253C /* Alert+Controller.m in Sources */,
+				4CB611BE1BCD396200D877C7 /* Video+Profile+Cell.m in Sources */,
+				4C3A822E1B8F0C40006576EA /* Category+Model.m in Sources */,
+				4C3A82281B8F07CE006576EA /* Menu+Cell.m in Sources */,
+				4CD9F6AF1B439E3100B9253C /* Date+View.m in Sources */,
+				27D709EB1BE8F984004DB74F /* Paid+Point+Model.m in Sources */,
+				4C2B8AF31B40DF6C00CCEBD1 /* AppDelegate.m in Sources */,
+				4C8F3B9C1BD0E13C005B12AB /* Home+Potrait+2+View.m in Sources */,
+				4C0156BE1B9041BB0069F495 /* Slider+View.m in Sources */,
+				27D70A0A1BEA4D3C004DB74F /* Free+Point+Model.m in Sources */,
+				27D709FB1BEA44CA004DB74F /* Point+Buy+View.m in Sources */,
+				4CDE41951BB94D6200C80F81 /* Modal+Controller.m in Sources */,
+				4C2415731B95A81000B9E877 /* Home+Landscape+Thumb+View.m in Sources */,
+				4C82C8CB1BCFD17F00EAB2AE /* Download+Model.m in Sources */,
+				4C8553101BD6400300142C15 /* Detail+Serial+View.m in Sources */,
+				4C0CE0791BD6358000B995F3 /* Serial+Episode+Model.m in Sources */,
+				276B65431BEB6B9A00AB053D /* Home+Landscape+3+View.m in Sources */,
+				27D709EE1BE9054B004DB74F /* Point+Controller.m in Sources */,
+				4CAAB1F41BC3F0FD00867B91 /* Related+Movie+View.m in Sources */,
+				4C295EC71BC7D80E00612F0A /* Movie+URL+Manager.m in Sources */,
+				4CDE419D1BBA9B2200C80F81 /* Slider+Model.m in Sources */,
+				4CB5059E1BC27536001FBA7F /* File+Controller.m in Sources */,
+				4C5E0BA01B8AFF88005DAE5B /* Response+Model.m in Sources */,
+				4C2B8B4E1B40F2DA00CCEBD1 /* URL+Controller.m in Sources */,
+				4CAAB1F11BC3F0EB00867B91 /* Review+Movie+View.m in Sources */,
+				4CDE41891BB9029A00C80F81 /* Facebook+Model.m in Sources */,
+				4C2E1BEA1BC4D6AE00861B0A /* Search+Controller.m in Sources */,
+				4C6E88C51BCCADA700DAEA94 /* Member+Review+View.m in Sources */,
+				4C2415791B95AE4100B9E877 /* Home+Landscape+2+View.m in Sources */,
+				4C295EBB1BC7725800612F0A /* Member+Model.m in Sources */,
+				4CB5059B1BC270C8001FBA7F /* Download+Controller.m in Sources */,
+				4C00B3D81BC5189C00EAF6C5 /* Movie+Related+Model.m in Sources */,
+				27D70A071BEA4CCB004DB74F /* Point+Free+Cell.m in Sources */,
+				4C5E0B9D1B8AFF1B005DAE5B /* Login+Model.m in Sources */,
+				4CB611B31BCCF78900D877C7 /* Price+Cell.m in Sources */,
+				4C2B8B241B40EB8D00CCEBD1 /* Global+Variables.m in Sources */,
+				4C295EC31BC7D3A700612F0A /* Web+Controller.m in Sources */,
+				276B65401BEB674D00AB053D /* Profile+Controller.m in Sources */,
+				27D709F11BE9068C004DB74F /* Point+Cell.m in Sources */,
+				4C220D751BD77EDE0059C13C /* Server+Config.m in Sources */,
+				4CDE419A1BBA93D300C80F81 /* Home+View.m in Sources */,
+				4C220D571BD75A260059C13C /* Serial+Episode+Cell.m in Sources */,
+				4C295ECA1BC7D87200612F0A /* Serial+URL+Manager.m in Sources */,
+				4C8F3B891BD0AFC6005B12AB /* Secure+Controller.m in Sources */,
+				4C2B8B511B410D1000CCEBD1 /* Land+Controller.m in Sources */,
+				4C104B371BD2B09E00904135 /* Video+Player+Model.m in Sources */,
+				4C2E1BFC1BC4F5B500861B0A /* Search+Model.m in Sources */,
+				4CC091B71BBEACC500CC35BA /* Detail+Movie+View.m in Sources */,
+				4C3A82251B8F07B5006576EA /* Menu+Controller.m in Sources */,
+				4CB505951BC27098001FBA7F /* Download+Manager.m in Sources */,
+				4C00B3DE1BC51DD200EAF6C5 /* Movie+Genre+Model.m in Sources */,
+				4C2B8B3A1B40EE5E00CCEBD1 /* User+Model.m in Sources */,
+				4C2415741B95A81000B9E877 /* Home+Landscape+View.m in Sources */,
+				4CDE418E1BB939A900C80F81 /* Forgot+Password+View.m in Sources */,
+				4CC091B21BBE75C800CC35BA /* Detail+Controller.m in Sources */,
+				4C00E0B81BD66432005219A6 /* Serial+Related+Model.m in Sources */,
+				4CAAB1EB1BC3EDD200867B91 /* Movie+Cast+Model.m in Sources */,
+				4C104B441BD3972F00904135 /* Video+Player+Controller.m in Sources */,
+				4C220D731BD77EDE0059C13C /* File+Server+Controller.m in Sources */,
+				4C2B8B2D1B40EDA800CCEBD1 /* URL+Config.m in Sources */,
+				4C0D6B981BC23569006FD6AF /* Serial+Model.m in Sources */,
+				4C8F3B951BD0DF99005B12AB /* Layout+Controller.m in Sources */,
+				4C0D6B9B1BC24F98006FD6AF /* Price+Model.m in Sources */,
+				4C6E88C81BCCB89F00DAEA94 /* Home+Menu+Controller.m in Sources */,
+				4C00B3E31BC53C8900EAF6C5 /* Review+Movie+Cell.m in Sources */,
+				4C2E1BEF1BC4DA3C00861B0A /* Menu+Model.m in Sources */,
+				4C3A821E1B8ECB8F006576EA /* Menu+Logged+Cell.m in Sources */,
+				4CAAB1EE1BC3EFB500867B91 /* Movie+Director+Model.m in Sources */,
+				4C3A820B1B8C44A2006576EA /* Menu+View.m in Sources */,
+				27A187261BE1F00E000EB05D /* Video+Player+View.m in Sources */,
+				4C5E0BA31B8B0425005DAE5B /* URL+Manager.m in Sources */,
+				4C2B8B3E1B40EF6900CCEBD1 /* SQL+Controller.m in Sources */,
+				4C44D3431B7B43EF004E685D /* Menu+Logged+Controller.m in Sources */,
+				4C00E0B51BD660BB005219A6 /* Comment+Serial+View.m in Sources */,
+				4C104B3C1BD3686400904135 /* Download+List+Controller.m in Sources */,
+				4C24155D1B94484500B9E877 /* Home+Potrait+View.m in Sources */,
+				4C3A82021B8C31B2006576EA /* Nav+Controller.m in Sources */,
+				27A1871F1BE1C306000EB05D /* CustomMMDrawerController.m in Sources */,
+				27D709F81BE9F1AF004DB74F /* Me+Model.m in Sources */,
+				4C8F3B991BD0DFAC005B12AB /* Layout+Config.m in Sources */,
+				4C82C8C81BCFCE5500EAB2AE /* Query+Controller.m in Sources */,
+				4CC091BD1BBEDA2100CC35BA /* Movie+Detail+Model.m in Sources */,
+				4C295EBE1BC7AC9400612F0A /* Home+Session.m in Sources */,
+				4C44D33C1B7B184B004E685D /* Credential+Controller.m in Sources */,
+				4C104B411BD383E800904135 /* Download+List+Cell.m in Sources */,
+				4C3A82311B8F1203006576EA /* Menu+Category+Model.m in Sources */,
+				4CB505A61BC37ECB001FBA7F /* Youtube+Controller.m in Sources */,
+				4CD9F6AC1B43949C00B9253C /* Date+Controller.m in Sources */,
+				4CDE41861BB8FE1200C80F81 /* Facebook+Controller.m in Sources */,
+				4C2B8B361B40EDFA00CCEBD1 /* User+Session.m in Sources */,
+				4C0D6B951BC22842006FD6AF /* Video+Controller.m in Sources */,
+				4C2B8B1C1B40E50500CCEBD1 /* Config.m in Sources */,
+				4CB611AE1BCCE85100D877C7 /* Price+View.m in Sources */,
+				4C2B8B461B40F14C00CCEBD1 /* Home+Controller.m in Sources */,
+				4C2B8AF01B40DF6C00CCEBD1 /* main.m in Sources */,
+				4C2B8B331B40EDD200CCEBD1 /* Global+Controller.m in Sources */,
+				2718095F1BF89D9700989C2E /* Member+Comment+View.m in Sources */,
+				27BE32DA1BDE1B8D00562324 /* Purchased+Model.m in Sources */,
+				4C2B8B321B40EDD200CCEBD1 /* App+Controller.m in Sources */,
+				4C2E1BF41BC4F06100861B0A /* Search+Cell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C2B8B0B1B40DF6D00CCEBD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Eric Adimartana (TJTY5288F7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Eric Adimartana (TJTY5288F7)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "6d0b8324-35d2-404c-a1e3-248c744e36b0";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C2B8B0C1B40DF6D00CCEBD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Eric Adimartana (TJTY5288F7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Eric Adimartana (TJTY5288F7)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "6d0b8324-35d2-404c-a1e3-248c744e36b0";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C2B8B0E1B40DF6D00CCEBD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF048B8DDEE424FC27B33553 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Eric Adimartana (TJTY5288F7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Eric Adimartana (TJTY5288F7)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "Nomad/Nomad-Prefix.pch";
+				INFOPLIST_FILE = Nomad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Nomad",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.co.allega.Nomad;
+				PRODUCT_NAME = Nomad;
+				PROVISIONING_PROFILE = "6d0b8324-35d2-404c-a1e3-248c744e36b0";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C2B8B0F1B40DF6D00CCEBD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7EBDEA9CC599F266618D45C /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Eric Adimartana (TJTY5288F7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Eric Adimartana (TJTY5288F7)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "Nomad/Nomad-Prefix.pch";
+				INFOPLIST_FILE = Nomad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Nomad",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = id.co.allega.Nomad;
+				PRODUCT_NAME = Nomad;
+				PROVISIONING_PROFILE = "6d0b8324-35d2-404c-a1e3-248c744e36b0";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C2B8AE51B40DF6C00CCEBD1 /* Build configuration list for PBXProject "Nomad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2B8B0B1B40DF6D00CCEBD1 /* Debug */,
+				4C2B8B0C1B40DF6D00CCEBD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C2B8B0D1B40DF6D00CCEBD1 /* Build configuration list for PBXNativeTarget "NoMAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2B8B0E1B40DF6D00CCEBD1 /* Debug */,
+				4C2B8B0F1B40DF6D00CCEBD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C2B8AE21B40DF6C00CCEBD1 /* Project object */;
+}

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment version="2048" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+            <string>Roboto-Bold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="mcJ-xf-oft" customClass="Member_Review_View">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="vTS-jC-NWM">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.49019607840000001" green="0.49019607840000001" blue="0.49019607840000001" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="bWF-Ce-Kth" userLabel="scv_main">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="vw_main">
+                            <rect key="frame" x="20" y="117" width="280" height="246"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" id="Mbw-Yz-pyl">
+                                    <rect key="frame" x="49" y="8" width="182" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Bw0-Po-ECZ" userLabel="btn_star_1">
+                                            <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <animations/>
+                                            <state key="normal" image="Button-Rate"/>
+                                            <state key="selected" image="Button-Rated"/>
+                                            <connections>
+                                                <action selector="doStar1:" destination="mcJ-xf-oft" eventType="touchUpInside" id="HzE-Ra-jCa"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="kc5-hv-gIa" userLabel="btn_star_2">
+                                            <rect key="frame" x="38" y="0.0" width="30" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <animations/>
+                                            <state key="normal" image="Button-Rate"/>
+                                            <state key="selected" image="Button-Rated"/>
+                                            <connections>
+                                                <action selector="doStar2:" destination="mcJ-xf-oft" eventType="touchUpInside" id="7qJ-Wh-RZU"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ujA-J7-83L" userLabel="btn_star_3">
+                                            <rect key="frame" x="76" y="0.0" width="30" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <animations/>
+                                            <state key="normal" image="Button-Rate"/>
+                                            <state key="selected" image="Button-Rated"/>
+                                            <connections>
+                                                <action selector="doStar3:" destination="mcJ-xf-oft" eventType="touchUpInside" id="ovh-Mg-vA7"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fbI-13-Zbo" userLabel="btn_star_4">
+                                            <rect key="frame" x="114" y="0.0" width="30" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <animations/>
+                                            <state key="normal" image="Button-Rate"/>
+                                            <state key="selected" image="Button-Rated"/>
+                                            <connections>
+                                                <action selector="doStar4:" destination="mcJ-xf-oft" eventType="touchUpInside" id="N97-G0-ROO"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="CVK-ur-PhT" userLabel="btn_star_5">
+                                            <rect key="frame" x="152" y="0.0" width="30" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <animations/>
+                                            <state key="normal" image="Button-Rate"/>
+                                            <state key="selected" image="Button-Rated"/>
+                                            <connections>
+                                                <action selector="doStar5:" destination="mcJ-xf-oft" eventType="touchUpInside" id="tNg-Eu-O1T"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <animations/>
+                                </view>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="KHu-hL-nlc" userLabel="txt_description">
+                                    <rect key="frame" x="8" y="46" width="264" height="150"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <animations/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" spellCheckingType="no"/>
+                                    <connections>
+                                        <outlet property="delegate" destination="mcJ-xf-oft" id="DOJ-2d-UPv"/>
+                                    </connections>
+                                </textView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="26g-Pa-ds8" userLabel="btn_cancel">
+                                    <rect key="frame" x="0.0" y="204" width="140" height="42"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                    <animations/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto2012892015" pointSize="18"/>
+                                    <state key="normal" title="CANCEL">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="doCancel:" destination="mcJ-xf-oft" eventType="touchUpInside" id="x6Y-DT-NRn"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zrJ-jA-jjH" userLabel="btn_submit">
+                                    <rect key="frame" x="140" y="204" width="140.5" height="42"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                    <animations/>
+                                    <color key="backgroundColor" red="1" green="0.76078431369999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto2012892015" pointSize="18"/>
+                                    <state key="normal" title="SUBMIT">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="doSubmit:" destination="mcJ-xf-oft" eventType="touchUpInside" id="yXO-e7-JTo"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <animations/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <animations/>
+                </scrollView>
+            </subviews>
+            <animations/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btn_star_1" destination="Bw0-Po-ECZ" id="bGD-sP-7wk"/>
+                <outlet property="btn_star_2" destination="kc5-hv-gIa" id="tda-79-cYg"/>
+                <outlet property="btn_star_3" destination="ujA-J7-83L" id="WDz-1Z-1RJ"/>
+                <outlet property="btn_star_4" destination="fbI-13-Zbo" id="SvF-Dq-eSB"/>
+                <outlet property="btn_star_5" destination="CVK-ur-PhT" id="i9g-Sp-HcY"/>
+                <outlet property="scv_main" destination="bWF-Ce-Kth" id="kmI-kA-qL7"/>
+                <outlet property="txt_description" destination="KHu-hL-nlc" id="Nxs-4H-iAY"/>
+                <outlet property="vw_main" destination="iN0-l3-epB" id="qmT-Vf-cNv"/>
+            </connections>
+            <point key="canvasLocation" x="223" y="324"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Button-Rate" width="170" height="170"/>
+        <image name="Button-Rated" width="170" height="170"/>
+    </resources>
+</document>

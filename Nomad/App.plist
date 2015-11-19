@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Title</key>
+	<dict>
+		<key>title_app</key>
+		<string>Nomad</string>
+		<key>title_warning</key>
+		<string>Warning</string>
+		<key>title_success</key>
+		<string>Success!</string>
+	</dict>
+	<key>Message</key>
+	<dict>
+		<key>message_loading</key>
+		<string>Loading, please wait...</string>
+		<key>message_purchased</key>
+		<string>Thank you for your purchased. Your video will download automatically</string>
+		<key>message_onoff_video</key>
+		<string>Do you want to watch video offline? It will download %@. If not, it will play streamingly</string>
+		<key>message_reviewed</key>
+		<string>Thank you for review</string>
+		<key>message_commented</key>
+		<string>Thenk you for comment</string>
+	</dict>
+	<key>Label</key>
+	<dict>
+		<key>label_no_expiry</key>
+		<string>No Expiry Date</string>
+		<key>label_expiry</key>
+		<string>Expired on : %@</string>
+		<key>label_expired</key>
+		<string>Expired</string>
+		<key>label_play_length</key>
+		<string>Play time : %.1f minutes</string>
+		<key>label_get_play_length</key>
+		<string>Getting play time...</string>
+		<key>label_user_rated</key>
+		<string>You&apos;ve rated!</string>
+	</dict>
+	<key>Error</key>
+	<dict>
+		<key>error_request_failed</key>
+		<string>Request has been failed, please try again</string>
+		<key>error_user_expired</key>
+		<string>User has expired or has been used on other device. Please login again to continue</string>
+		<key>error_email</key>
+		<string>Email address is not valid</string>
+		<key>error_password_blank</key>
+		<string>Password must be filled</string>
+		<key>error_password_not_same</key>
+		<string>Password and Confirm Password is not same</string>
+		<key>error_facebook_cancelled</key>
+		<string>Login via Facebook has been cancelled</string>
+		<key>error_facebook_failed</key>
+		<string>Login via Facebook has been failed, please try again</string>
+		<key>error_star_blank</key>
+		<string>Please fill your rating</string>
+		<key>error_video_playback</key>
+		<string>Sorry, video can&apos;t be played</string>
+		<key>error_video_not_found</key>
+		<string>Sorry, video information can&apos;t be fetched, please try again</string>
+		<key>error_insufficient_point</key>
+		<string>Sorry, insufficient point, want to buy more point?</string>
+	</dict>
+</dict>
+</plist>

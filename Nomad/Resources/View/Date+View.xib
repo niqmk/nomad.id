@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment version="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="GdM-W0-BPs" customClass="Date_View">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="GoT-UV-S6w" userLabel="scv_main">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <animations/>
+                </scrollView>
+            </subviews>
+            <animations/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <connections>
+                <outlet property="dtp_date" destination="P1K-7d-bXv" id="hrT-Ry-biL"/>
+                <outlet property="scv_main" destination="GoT-UV-S6w" id="TnK-Ay-4S5"/>
+                <outlet property="vw_layout" destination="peC-bS-Dwj" id="dI1-Ko-lr1"/>
+            </connections>
+        </view>
+        <view contentMode="scaleToFill" id="peC-bS-Dwj" userLabel="vw_layout">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="245"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Birth Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="scy-Ik-Dez">
+                    <rect key="frame" x="8" y="0.0" width="284" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" red="0.30196078430000001" green="0.63921568630000003" blue="0.85098039219999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" id="ByO-d2-dgU">
+                    <rect key="frame" x="0.0" y="40" width="300" height="2"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.30196078430000001" green="0.63921568630000003" blue="0.85098039219999999" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" id="P1K-7d-bXv" userLabel="dtp_date">
+                    <rect key="frame" x="0.0" y="41" width="300" height="160"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <animations/>
+                    <date key="date" timeIntervalSinceReferenceDate="435656285.35023099">
+                        <!--2014-10-22 07:38:05 +0000-->
+                    </date>
+                </datePicker>
+                <view contentMode="scaleToFill" id="Gfa-Ei-DEq">
+                    <rect key="frame" x="0.0" y="200" width="300" height="45"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="aXt-pU-lKp">
+                            <rect key="frame" x="0.0" y="0.0" width="300" height="1"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <button opaque="NO" tag="300" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5u4-1D-BZ1" userLabel="btn_select">
+                            <rect key="frame" x="150" y="0.0" width="150" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <state key="normal" title="Choose">
+                                <color key="titleColor" red="0.18039215689999999" green="0.22352941179999999" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="doSelect:" destination="GdM-W0-BPs" eventType="touchUpInside" id="KFy-TC-fDt"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" id="Mju-Ub-f6a">
+                            <rect key="frame" x="149" y="0.0" width="1" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <button opaque="NO" tag="301" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6Qp-qR-BSX" userLabel="btn_cancel">
+                            <rect key="frame" x="0.0" y="0.0" width="150" height="45"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <state key="normal" title="Cancel">
+                                <color key="titleColor" red="0.18039215689999999" green="0.22352941179999999" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="doCancel:" destination="GdM-W0-BPs" eventType="touchUpInside" id="nRN-ni-Js0"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <animations/>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="290" y="-233.5"/>
+        </view>
+    </objects>
+</document>

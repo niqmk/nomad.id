@@ -1,0 +1,5 @@
+XSym
+0060
+b36a8de65177abca32d0aba8506437ab
+../../../MRProgress/src/Components/MRActivityIndicatorView.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

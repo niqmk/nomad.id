@@ -1,0 +1,5 @@
+XSym
+0047
+14ef950012535fa82b41f042076456d3
+../../../MRProgress/src/Components/MRIconView.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
